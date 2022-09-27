@@ -1,0 +1,10 @@
+#!name=Fake_Vip
+#!desc=破解
+
+[Script]
+#Textnow
+http-response ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Textnow.js
+
+
+[MITM]
+hostname = %APPEND% api.textnow.me,  *.googlevideo.com
