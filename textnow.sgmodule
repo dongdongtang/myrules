@@ -8,4 +8,4 @@ http-response ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* script-path=https:/
 TextNow = type=http-response,pattern=^https:\/\/api\.textnow\.me\/.+\/users\/im(.*)\?client_id,requires-body=1,max-size=0,script-path=https://hub.nan.ge/Script/TextNow/TextNow.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND%  api.textnow.me
+hostname = %APPEND% api.textnow.me
