@@ -14,4 +14,4 @@ http:
 script-providers:
   Spotify:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
-    interval: 86400
+    interval: 0
