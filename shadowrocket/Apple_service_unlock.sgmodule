@@ -1,0 +1,53 @@
+#!name= 用于解锁部分Apple服务限制
+#!desc=https://github.com/VirgilClyne/iRingo
+
+[General]
+skip-proxy = %APPEND% iosapps.itunes.apple.com
+
+[MITM]
+hostname = %APPEND% configuration.ls.apple.com, gspe1-ssl.ls.apple.com, gspe12-ssl.ls.apple.com, gspe12-cn-ssl.ls.apple.com, gspe19-ssl.ls.apple.com, gspe19-cn-ssl.ls.apple.com, gspe35-ssl.ls.apple.com, gsp-ssl.ls.apple.com, direction2.is.autonavi.com, dispatcher.is.autonavi.com, rap.is.autonavi.com, news-client.apple.com, news-client-search.apple.com, news-edge.apple.com, news-events.apple.com, news-assets.apple.com, newsletter-edge.apple.com, *.apple.news, mask-api.icloud.com, mask-api.fe.apple-dns.net, mask.icloud.com, mask.apple-dns.net, mask-canary.icloud.com, canary.mask.apple-dns.net, -mask-h2.icloud.com, -mask-t.apple-dns.net, p*-acsegateway.icloud.com, p*-acsegateway.icloud.com.cn, api*.smoot.apple.com, api*.smoot.apple.cn, uts-api.itunes.apple.com, testflight.apple.com
+
+[Script]
+# Rewrite Location Services Defaults Configuration
+Location Services Defaults Configuration = type=http-request, pattern=^https?:\/\/configuration\.ls\.apple\.com\/config\/defaults(\?.*)?$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+Location Services Defaults Configuration = type=http-response, pattern=^https?:\/\/configuration\.ls\.apple\.com\/config\/defaults(\?.*)?$, requires-body=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.response.js, argument=
+# Rewrite Location Services PEP Geo Country Code
+Location Services PEP Geo Country Code = type=http-response, pattern=^https?:\/\/gspe1-ssl\.ls\.apple\.com\/pep\/gcc, requires-body=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.response.js, argument=
+# Redirect Location Services Announcements Configuration
+Location Services Announcements Configuration = type=http-request, pattern=^https?:\/\/gspe35-ssl\.ls\.apple\.(com|cn)\/config\/announcements(\?.*)?$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+# Redirect Location Services Dynamic Configuration
+Location Services Dynamic Configuration = type=http-request, pattern=^https?:\/\/gspe35-ssl\.ls\.apple\.(com|cn)\/geo_manifest\/dynamic\/config(\?.*)?$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+# Redirect Dispatcher Services
+Dispatcher Services = type=http-request, pattern=^https?:\/\/gsp-ssl\.ls\.apple\.com\/dispatcher\.arpc$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+Dispatcher Services = type=http-request, pattern=^https?:\/\/dispatcher\.is\.autonavi\.com\/dispatcher$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+# Redirect Directions Services
+Directions Services = type=http-request, pattern=^https?:\/\/gsp-ssl\.ls\.apple\.com\/directions\.arpc$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+Directions Services = type=http-request, pattern=^https?:\/\/direction2\.is\.autonavi\.com\/direction$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+# Redirect Traffic Services
+Traffic Services = type=http-request, pattern=^https?:\/\/gspe12-ssl\.ls\.apple\.com\/traffic(\?.*)?$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+Traffic Services = type=http-request, pattern=^https?:\/\/gspe12-cn-ssl\.ls\.apple\.com\/traffic(\?.*)?$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+# Redirect Tiles Services
+Tiles Services = type=http-request, pattern=^https?:\/\/gspe19-ssl\.ls\.apple\.com\/tile\.vf(\?.*)?$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+Tiles Services = type=http-request, pattern=^https?:\/\/gspe19-cn-ssl\.ls\.apple\.com\/tiles(\?.*)?$, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js, argument=
+
+News = type=http-request, pattern=^https?:\/\/news-(edge|events)\.apple\.com\/(v1\/configs|analyticseventsv2\/async)(\?.*)?$, requires-body=1, debug=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/js/News.request.beta.js
+News Search = type=http-request, pattern=^https?:\/\/news-client-search\.apple\.com\/v1\/search(\?.*)?$, requires-body=0, debug=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/js/News.request.beta.js
+
+iCloud ACSE Gateway = type=http-request, pattern=^https?:\/\/p(\d+)-acsegateway\.icloud\.com(\.cn)?\/(v2|v3)\/(accounts|devices)\/(.+)\/subscriptions\/features, requires-body=0, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Private_Relay.request.js, argument=
+iCloud ACSE Gateway = type=http-response, pattern=^https?:\/\/p(\d+)-acsegateway\.icloud\.com(\.cn)?\/(v2|v3)\/(accounts|devices)\/(.+)\/subscriptions\/features, requires-body=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Private_Relay.response.js, argument=
+
+# Bag (iOS/macOS)
+Siri Suggestions Service = type=http-request, pattern=^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/bag(\?.*)?$, requires-body=0, debug=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/js/Siri.request.beta.js, argument=
+Siri Suggestions Service = type=http-response, pattern=^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/bag(\?.*)?$, requires-body=1, debug=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/js/Siri.response.beta.js, argument=
+# Spotlight & Look Up Search (iOS/macOS)
+Spotlight & Look Up Search = type=http-request, pattern=^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/search(\?.*)?$, requires-body=0, debug=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/js/Siri.request.beta.js, argument=
+Spotlight & Look Up Search = type=http-response, pattern=^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/search(\?.*)?$, requires-body=1, debug=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/js/Siri.response.beta.js, argument=
+# Siri Infomation Card (macOS)
+Siri Infomation Card = type=http-request, pattern=^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/card(\?.*)?$, requires-body=0, debug=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/js/Siri.request.beta.js, argument=
+Siri Infomation Card = type=http-response, pattern=^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/card(\?.*)?$, requires-body=1, debug=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/js/Siri.response.beta.js, argument=
+
+TV Request = type=http-request, pattern=^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/.*, requires-body=1, debug=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/js/TV.request.beta.js
+TV Response = type=http-response, pattern=^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/.*, requires-body=1, debug=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/beta/js/TV.response.beta.js
+
+TestFlight = type=http-request, pattern=^https?:\/\/testflight\.apple\.com\/(.+)(\?.*)?$, requires-body=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TestFlight.request.js, argument=
+TestFlight = type=http-response, pattern=^https?:\/\/testflight\.apple\.com\/(.+)(\?.*)?$, requires-body=1, script-path=https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TestFlight.response.js, argument=

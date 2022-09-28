@@ -1,0 +1,18 @@
+#!name=去水印&防跳转
+#!desc=自用
+
+[Script]
+#皮皮虾去水印去广告
+http-response ^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/ventusyu/ventus/main/Script/PPX.js
+
+#TikTok去水印
+http-response https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite) script-path=https://raw.githubusercontent.com/ventusyu/ventus/main/Script/TikTok.js, requires-body=true, timeout=10, tag=TK去水印
+
+#TF修正下载
+TF下载修正 = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ventusyu/ventus/main/Script/TF.js
+
+#百度防跳转
+百度防跳转 = type=http-response,pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme,script-path=https://raw.githubusercontent.com/ventusyu/ventus/main/Script/baidu-no-redirect.js
+
+[MITM]
+hostname = %APPEND% *.snssdk.com, vni.kwaiying.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, testflight.apple.com, boxer.baidu.com
