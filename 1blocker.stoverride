@@ -1,5 +1,5 @@
 name: 1blocker
-desc: 1blocker解锁订阅
+desc: 1blocker解锁订阅. （由tangdong改写）
 
 http:
   mitm:
