@@ -1,5 +1,5 @@
-name: mix相机
-desc: mix相机解锁订阅
+name: mix
+desc: mix解锁订阅
 
 http:
   mitm:
