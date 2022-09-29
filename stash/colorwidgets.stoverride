@@ -1,0 +1,16 @@
+name: colorwidgets
+desc: colorwidgets解锁订阅. 脚本来自网络大神，由tangdong改写。
+
+http:
+  mitm:
+    - "api.revenuecat.com"
+  script:
+    - match: https://api.revenuecat.com/v1/(receipts|subscribers)/*
+      name: colorwidgets
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  colorwidgets:
+    url: https://raw.githubusercontent.com/Marol62926/MarScrpt/main/colorwidget.js
+    interval: 86400
