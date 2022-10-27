@@ -1,5 +1,5 @@
 #!name=🔍Q-Search
-#!desc=All in one Modified by 公众号墨鱼手记
+#!desc=Safari搜索默认设置为duckduckgo.
 
 [MITM]
 hostname = %APPEND% duckduckgo.com
