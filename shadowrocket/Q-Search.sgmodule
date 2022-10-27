@@ -1,5 +1,5 @@
 #!name=🔍Q-Search
-#!desc=Safari搜索默认设置为duckduckgo.
+#!desc=Safari搜索默认设置为duckduckgo(可用)
 
 [MITM]
 hostname = %APPEND% duckduckgo.com
