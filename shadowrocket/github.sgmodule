@@ -1,5 +1,5 @@
 #!name=Github520
-#!desc=by 521xueweihan/GitHub520
+#!desc=让你“爱”上 GitHub，解决访问时图裂、加载慢的问题
 [Host]
 # GitHub520 Host Start
 alive.github.com = 140.82.114.25
