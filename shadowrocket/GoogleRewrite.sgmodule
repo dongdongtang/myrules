@@ -1,5 +1,5 @@
 #!name=Google Rewrite
-#!desc=Safari 谷歌搜索重定向（Surge）
+#!desc=Safari 谷歌搜索重定向（解决使用Safari浏览器默认谷歌搜索需要跳转的问题。）
 #!system=ios
 
 [URL Rewrite]
