@@ -1,0 +1,7 @@
+#!name=PhoneRecord
+#!desc=通话录音
+[MITM]
+hostname = %APPEND% micro-tool-api.lyaway.com
+
+[Script]
+通话录音 = type=http-response,pattern=http://micro-tool-api.lyaway.com/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/thly.js
