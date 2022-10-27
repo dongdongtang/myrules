@@ -3,8 +3,8 @@
 
 [Script]
 #Textnow
-http-response ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Textnow.js
-
+￥http-response ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Textnow.js
+Textnow = type=http-response,pattern=^https:\/\/api\.textnow\.me\/api2.0\/users\/.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/textnow.js
 # > TextNow
 #premium_state = type=http-response,pattern=^https?:\/\/api\.textnow\.me\/.+\/users\/.+\/(subscription|subscription_state|premium_state)\?,requires-body=1,max-size=0,script-path=https://hub.nan.ge/Script/TextNow/State.js,script-update-interval=-1
 
