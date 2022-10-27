@@ -1,5 +1,5 @@
 #!name=京东比价
-#!desc=京东历史价格
+#!desc=京东历史价格，点击商品标题就可以显示历史价格
 #!system=ios
 
 [Script]
