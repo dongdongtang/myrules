@@ -6,11 +6,11 @@ http:
     - "api.revenuecat.com"
   script:
     - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\$RCAnonymousID%3A\w{32})$
-      name: 1blocker
+      name: AnyBox
       type: response
       require-body: true
       timeout: 10
 script-providers:
-  1blocker:
+  AnyBox:
     url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/AnyBoxProCrack.js
     interval: 86400
