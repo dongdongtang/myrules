@@ -1,9 +1,9 @@
-#!name=MobileMonsterProCrack
-#!desc=MobileMonsterProCrack
+#!name=Picsew
+#!desc=Picsew解锁永久高级版权限
 #!system=ios
 
 [Script]
-MobileMonsterProCrack = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$, requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/MobileMonsterProCrack.js
+Picsew = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
 
 [MITM]
-hostname = %APPEND% api.revenuecat.com
+hostname = %APPEND% buy.itunes.apple.com
