@@ -1,0 +1,8 @@
+#!name=jianxun 解锁VIP
+#!desc=jianxun 解锁VIP
+
+[Script]
+jianxun 解锁VIP = type=http-response,pattern=^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JX.js,script-update-interval=0
+
+[MITM]
+hostname= %APPEND% api.tipsoon.com
