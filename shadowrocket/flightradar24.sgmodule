@@ -1,0 +1,9 @@
+#!name=flightradar24高级解锁
+#!desc=flightradar24高级解锁
+#!system=ios
+
+[Script]
+flightradar24高级解锁 = type=http-response,pattern=^ https://mobile.flightradar24.com/mobile/(user-session|subscribe),requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/flightradar24.js
+
+[MITM]
+hostname = %APPEND% mobile.flightradar24.com
