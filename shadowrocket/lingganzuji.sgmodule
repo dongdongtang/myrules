@@ -1,0 +1,9 @@
+#!name=灵感足迹高级解锁
+#!desc=灵感足迹高级解锁
+#!system=ios
+
+[Script]
+灵感足迹高级解锁 = type=http-response,pattern= ^https://backend.getdrafts.com/api/v1/verification/verify_receipt,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/Drafts.js
+
+[MITM]
+hostname = %APPEND% backend.getdrafts.com
