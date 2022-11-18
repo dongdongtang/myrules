@@ -1,9 +1,9 @@
-#!name=xzjhz
+#!name=小组件盒子
 #!desc=小组件盒子解锁永久高级版权限
 #!system=ios
 
 [Script]
-xzjhz = type=http-response,pattern=^https:\/\/widget-box-api\.codefuture\.top\/v1\/users\/me, requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xzjhz.js
+小组件盒子 = type=http-response,pattern=^https:\/\/widget-box-api\.codefuture\.top\/v1\/users\/me, requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xzjhz.js
 
 [MITM]
 hostname = %APPEND% widget-box-api.codefuture.top
