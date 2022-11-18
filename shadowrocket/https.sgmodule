@@ -1,0 +1,9 @@
+#!name=https抓包
+#!desc=https抓包+解锁订阅
+#!system=ios
+
+[Script]
+https抓包 = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ , requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/https.js
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
