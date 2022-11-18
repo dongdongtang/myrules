@@ -1,0 +1,8 @@
+#!name=Lifeviewer
+#!desc=Lifeviewer每日计划——解锁订阅
+
+[Script]
+Lifeviewer = type=http-response,pattern=^https:\/\/api\.apphud\.com\/v1\/subscriptions,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Lifeviewer.js,script-update-interval=0
+
+[MITM]
+hostname= %APPEND% api.apphud.com
