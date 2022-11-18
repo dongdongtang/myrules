@@ -1,0 +1,9 @@
+#!name=hlzz
+#!desc=hlzz解锁永久高级版权限
+#!system=ios
+
+[Script]
+hlzz = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$), requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/hlzz.js
+
+[MITM]
+hostname = %APPEND% api.revenuecat.com
