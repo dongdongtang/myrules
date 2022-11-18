@@ -2,7 +2,7 @@
 #!desc=Keep解锁Pro
 
 [Script]
-Keep = type=http-response,pattern=^https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/NobyDa/Surge/JS/Keep.js
+Keep = type=http-response,pattern=^https:\/\/api\.gotokeep\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/keep.js
 
 [MITM]
-hostname= %APPEND% api.gotokeep.com, api.keepkeep.com
+hostname= %APPEND% api.gotokeep.com
