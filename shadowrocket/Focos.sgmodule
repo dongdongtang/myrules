@@ -1,0 +1,9 @@
+#!name=Focos 
+#!desc=Focos解锁
+#!system=ios
+
+[Script]
+Focos = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt, requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Focos.js
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
