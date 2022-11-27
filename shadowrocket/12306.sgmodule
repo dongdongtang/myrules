@@ -1,0 +1,8 @@
+#!name=12306去广告
+#!desc=12306去广告
+
+[Script]
+12306去广告 = type=http-response,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList,requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/12306.js,script-update-interval=0
+
+[MITM]
+hostname= %APPEND% ad.12306.cn
