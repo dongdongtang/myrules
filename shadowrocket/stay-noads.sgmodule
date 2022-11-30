@@ -1,0 +1,8 @@
+#!name=Stay去除仓库广告
+#!desc=Stay去除仓库广告
+
+[Script]
+Stay去除仓库广告 = type=http-response,pattern=^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/stay.js,script-update-interval=0
+
+[MITM]
+hostname= %APPEND% api.shenyin.name
