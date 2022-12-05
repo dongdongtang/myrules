@@ -1,0 +1,8 @@
+#!name=Fomz解锁VIP
+#!desc= Fomz解锁VIP 
+
+[Script]
+Fomz解锁VIP = type=http-response,pattern=^https:\/\/fz68resapi\.imendon\.com\/v2\/purchase\/vip\/verification,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/FoMz.js,script-update-interval=0
+
+[MITM]
+hostname= %APPEND% fz68resapi.imendon.com
