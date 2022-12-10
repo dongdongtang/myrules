@@ -64,7 +64,6 @@ http:
     - ^https?:\/\/m5.amap.com\/ws\/valueadded\/ - reject
     - https://guanyu.longfor.com/app-server/api/v1/main/start - reject
     - ^https?:\/\/dili\.bdatu\.com\/jiekou\/ad - reject
-    - ^https?+:\/\/wap\.ngchina\.cn\/news\/adverts - reject
     - ^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox - reject
     - ^https?:\/\/appapi\.huazhu\.com:\d{4}\/client\/app\/getAppStartPage\/ - reject
     - ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\//d+\//d+\/BbsImg\.(?<=(big.(png|jpg)))$ - reject
