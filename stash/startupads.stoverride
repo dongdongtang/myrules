@@ -216,7 +216,6 @@ http:
     - ^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info - reject
     - ^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) - reject
     - ^https?:\/\/overseas.weico.cc\/portal.php\?a=get_coopen_ads - reject
-    - ^https?+:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ - reject
     - ^https?:\/\/sp\.kaola\.com\/api\/openad - reject
     - ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
     - ^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash - reject
