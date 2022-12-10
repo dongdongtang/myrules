@@ -1,0 +1,17 @@
+name: TextNow
+desc: 破解去广告
+
+http:
+  mitm:
+    - "api.textnow.me"
+  script:
+    - match: ^https:\/\/api\.textnow\.me\/api2.0\/users\/.*
+      name: textnow
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  textnow:
+    url: https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/textnow.js
+    interval: 86400    

@@ -1,0 +1,18 @@
+name: pdfexpert 
+desc: pdfexpert解锁
+
+http:
+  mitm:
+    - "license.pdfexpert.com"
+  script:
+    - match: ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh
+      name: pdfexpert
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  pdfexpert:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PDFExpert.js
+    interval: 86400    
+

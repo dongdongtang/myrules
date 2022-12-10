@@ -1,0 +1,17 @@
+name: 灵感足迹高级解锁 
+desc: 灵感足迹高级解锁
+
+http:
+  mitm:
+    - "footprint-api.quthing.com"
+  script:
+    - match: ^https:\/\/footprint-api\.quthing\.com\/vip\/state
+      name: lgzj
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  lgzj:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/lgzj.js
+    interval: 86400    

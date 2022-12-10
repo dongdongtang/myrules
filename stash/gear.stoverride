@@ -1,0 +1,18 @@
+name: gear浏览器
+desc: gear浏览器插件+解锁订阅
+
+http:
+  mitm:
+    - "api.revenuecat.com"
+  script:
+    - match: ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$
+      name: gear
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  gear:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/gear.js
+    interval: 86400    
+

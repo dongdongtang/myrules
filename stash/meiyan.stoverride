@@ -1,0 +1,17 @@
+name: 美颜相机VIP
+desc: 美颜相机VIP
+
+http:
+  mitm:
+    - "api.meiyan.com"
+  script:
+    - match: ^https:\/\/api\.meiyan\.com\/vip\/user_info\.json
+      name: meiyan
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  meiyan:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/myxj.js
+    interval: 86400    

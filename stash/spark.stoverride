@@ -1,0 +1,18 @@
+name: Spark Mail
+desc: park Mail-智能邮箱+解锁订阅
+
+http:
+  mitm:
+    - "api.revenuecat.com"
+  script:
+    - match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$)
+      name: spark
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  spark:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/SparkMail.js
+    interval: 86400    
+

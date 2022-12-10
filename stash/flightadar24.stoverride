@@ -1,0 +1,19 @@
+name: flightradar24高级解锁
+desc: flightradar24高级解锁
+
+http:
+  mitm:
+    - "mobile.flightradar24.com"
+  script:
+    - match: ^https://mobile.flightradar24.com/mobile/(user-session|subscribe)
+      name: flightradar24
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  flightradar24:
+    url: https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/flightradar24.js
+    interval: 86400    
+
+

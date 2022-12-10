@@ -1,0 +1,17 @@
+name: Picsew
+desc: Picsew解锁永久高级版权限
+
+http:
+  mitm:
+    - "buy.itunes.apple.com"
+  script:
+    - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
+      name: Picsew
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  Picsew:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
+    interval: 86400    

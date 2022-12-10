@@ -1,0 +1,17 @@
+name: Stay去除仓库广告
+desc: Stay去除仓库广告
+
+http:
+  mitm:
+    - "api.shenyin.name"
+  script:
+    - match: ^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$
+      name: Stay
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  Stay:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/stay.js
+    interval: 86400    
