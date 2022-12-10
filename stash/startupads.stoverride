@@ -256,7 +256,6 @@ http:
     - ^https?:\/\/api\.izuiyou\.com\/ad\/ - reject
     - ^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js - reject
     - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
-    - ^https?+:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad - reject
     - ^https?+:\/\/ih2\.ireader\.com\/zyapi\/self\/screen\/ad - reject
     - ^https?+:\/\/ih2\.ireader\.com\/zycl\/api\/ad - reject
   script:
