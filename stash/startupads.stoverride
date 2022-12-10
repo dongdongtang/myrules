@@ -211,8 +211,6 @@ http:
     - ^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ - reject
     - ^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
     - ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) - reject
-    - https://support.you.163.com/appversync/check.do - reject
-    - ^https?+:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
     - ^https?:\/\/yanxuan.nosdn.127.net\/(static-union\/)?.*\.gif - reject
     - https:\/\/yanxuan.nosdn.127.net\/.*\.mp4 - reject
     - ^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info - reject
