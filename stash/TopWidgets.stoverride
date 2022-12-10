@@ -1,0 +1,17 @@
+name: TopWidgets
+desc: TopWidgets-小组件+解锁订阅
+
+http:
+  mitm:
+    - "top-widgets-api.xiaozujian.com "
+  script:
+    - match: ^https:\/\/top-widgets-api\.xiaozujian\.com\/api\/app\/config\/userConfig
+      name: xzjhz
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  xzjhz:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/widgets.js
+    interval: 86400    
