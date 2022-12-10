@@ -1,0 +1,17 @@
+name: 解锁keep会员视频
+desc: 解锁keep会员视频
+
+http:
+  mitm:
+    - "*.gotokeep.com"
+  script:
+    - match: ^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans)
+      name: keep
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  Keep:
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/keep
+    interval: 86400    
