@@ -301,18 +301,6 @@ http:
       require-body: true
       timeout: 30
       max-size: 0
-    - match: ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords
-      name: jd_json.js
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 0
-    - match: ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms
-      name: jd_json.js
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 0
     # > kuan@kk pp
     - match: ^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList)
       name: coolapk.js
@@ -571,12 +559,6 @@ script-providers:
     interval: 86400
   startup.js:
     url: https://github.com/ddgksf2013/Scripts/raw/master/startup.js
-    interval: 86400
-  jd_json.js:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
-    interval: 86400
-  jd_json.js:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
     interval: 86400
   coolapk.js:
     url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
