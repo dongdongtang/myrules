@@ -6,12 +6,12 @@ http:
     - "api.gotokeep.com"
   script:
     - match:^https:\/\/api\.gotokeep\.com
-      name: tophub
+      name: keep
       type: response
       require-body: true
       timeout: 30
       max-size: 0
 script-providers:
-  tophub:
+  keep:
     url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/keep.js
     interval: 86400    
