@@ -1,0 +1,17 @@
+name: 今日热榜
+desc: 今日热榜解锁永久高级版权限
+
+http:
+  mitm:
+    - "api2.tophub.app"
+  script:
+    - match: ^https://api2.tophub.app/account/sync
+      name: tophub
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  tophub:
+    url: https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/jinrirebang.js
+    interval: 86400    
