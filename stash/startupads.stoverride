@@ -49,8 +49,6 @@ http:
     - ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson - reject
     - ^https?:\/\/e.dangdang.com\/media\/api.+\?action=getDeviceStartPage - reject
     - ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init - reject
-    - ^https?+:\/\/mapi\.dangdang\.com\/index\.php\?action=init - reject
-    - ^https?+:\/\/e\.dangdang\.com\/.+?getDeviceStartPage - reject
     - ^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/ - reject
     - ^https?:\/\/cdn\.dianshihome\.com\/static\/ad\/ - reject
     - ^https?:\/\/elemecdn.com\/.+\/sitemap - reject
