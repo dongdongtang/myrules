@@ -313,36 +313,6 @@ http:
       require-body: true
       timeout: 30
       max-size: 0
-    - match: ^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my
-      name: keepStyle.js
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 0
-    - match: ^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic
-      name: keepStyle.js
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 0
-    - match: https://api.gotokeep.com/homepage/v7/tab/find
-      name: keepStyle.js
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 0
-    - match: https://api.gotokeep.com/nuocha/course/v2/\w+/preview
-      name: keepStyle.js
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 0
-    - match: https://api.gotokeep.com/sportpage/sport/v3/mysport
-      name: keepStyle.js
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 0
     # > kuan@kk pp
     - match: ^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList)
       name: coolapk.js
@@ -374,25 +344,6 @@ http:
     # > WeChat110@zZPiglet
     - match: ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?
       name: UnblockURLinWeChat.js
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 0
-    # > XiaoHongShu@ddgksf2013
-    - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config
-      name: xiaohongshu.js
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 0
-    - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\?
-      name: xiaohongshu.js
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 0
-    - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\?
-      name: xiaohongshu.js
       type: response
       require-body: true
       timeout: 30
@@ -562,7 +513,6 @@ http:
     - "api.m.mi.com"
     - "guanyu.longfor.com"
     - "pages.xiaohongshu.com"
-    - "www.xiaohongshu.com"
     - "elemecdn.com"
     - "fuss10.elemecdn.com"
     - "www1.elecfans.com"
@@ -628,21 +578,6 @@ script-providers:
   jd_json.js:
     url: https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
     interval: 86400
-  keepStyle.js:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
-    interval: 86400
-  keepStyle.js:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
-    interval: 86400
-  keepStyle.js:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
-    interval: 86400
-  keepStyle.js:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
-    interval: 86400
-  keepStyle.js:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
-    interval: 86400
   coolapk.js:
     url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
     interval: 86400
@@ -657,13 +592,4 @@ script-providers:
     interval: 86400
   UnblockURLinWeChat.js:
     url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
-    interval: 86400
-  xiaohongshu.js:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js
-    interval: 86400
-  xiaohongshu.js:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js
-    interval: 86400
-  xiaohongshu.js:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js
     interval: 86400
