@@ -1,0 +1,17 @@
+name: 阿里云盘优化首页
+desc: 阿里云盘优化首页
+
+http:
+  mitm:
+    - "api.aliyundrive.com"
+  script:
+    - match: ^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/apps\/widgets$
+      name: aliyundrive
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  aliyundrive:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/alidrive.js
+    interval: 86400    
