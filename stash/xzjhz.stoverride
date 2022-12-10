@@ -1,0 +1,17 @@
+name: 小组件盒子
+desc: 小组件盒子。脚本来自网络大神，由tangdong改写。
+
+http:
+  mitm:
+    - "widget-box-api.codefuture.top"
+  script:
+    - match: ^https:\/\/widget-box-api\.codefuture\.top\/v1\/users\/me
+      name: xzjhz
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  xzjhz:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xzjhz.js
+    interval: 86400    
