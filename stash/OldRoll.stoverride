@@ -1,5 +1,5 @@
 name: OldRoll
-desc: OldRoll破解高级会员。脚本来自网络大神，由tangdong改写。
+desc: OldRoll破解高级会员，脚本来自网络大神，由louistang改写。
 
 http:
   mitm:
@@ -10,6 +10,7 @@ http:
       type: response
       require-body: true
       timeout: 30
+      max-size: 0
 script-providers:
   OldRoll:
     url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/old.js
