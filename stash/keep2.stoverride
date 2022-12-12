@@ -6,7 +6,7 @@ http:
     - "*.gotokeep.com"
   script:
     - match: ^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans)
-      name: keep
+      name: Keep
       type: response
       require-body: true
       timeout: 30
