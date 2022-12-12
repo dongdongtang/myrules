@@ -1,0 +1,17 @@
+name: Anybox -跨平台书签管理+解锁订阅
+desc: Anybox -跨平台书签管理+解锁订阅
+
+http:
+  mitm:
+    - "api.revenuecat.com"
+  script:
+    - match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(.*?)*$)
+      name: Anybox
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  Anybox:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/AAnybox.js
+    interval: 86400    
