@@ -13,5 +13,5 @@ http:
       max-size: 0
 script-providers:
   Keep:
-    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/keep
+    url: https://raw.githubusercontent.com/zwf234/rules/master/js/keep.js
     interval: 86400    
