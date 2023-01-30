@@ -547,6 +547,10 @@ http:
     - "*.hoopchina.com"
     - "goblin.hupu.com"
     - "spclient.wg.spotify.com"
+    - "gd.10086.cn"
+    - "m.client.10010.com"
+    - "webappcfg.paas.cmbchina.com"
+    - "3g.csair.com"
 
 script-providers:
   12306.js:
