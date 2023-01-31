@@ -1,5 +1,5 @@
 name: v2ex签到
-desc: 签到脚本将在每天的凌晨0:10执行
+desc: 签到脚本将在每天的凌晨0:9执行
 
 
 http:
@@ -10,7 +10,7 @@ cron:
   # 签到
   script:
     - name: v2excheckin
-      cron: '10 0 0 * * *'
+      cron: '9 0 * * *'
       timeout: 60
  
 script-providers:
