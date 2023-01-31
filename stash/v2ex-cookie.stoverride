@@ -1,5 +1,5 @@
 name: v2ex获取cookie
-desc: 请查看覆写内容获取cookie,签到脚本将在每天的凌晨0:10执行
+desc: 请查看覆写内容获取cookie.
 
 
 http:
@@ -13,13 +13,7 @@ http:
       type: request
       require-body: true
       timeout: 30
-#cron:
-  # 京东多合一签到
-  #script:
-    #- name: JD_DailyBonus
-      #cron: '5 0 * * *'
-      #timeout: 60
- 
+
 script-providers:
   v2ex-cookie:
     url: https:https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.cookie.js
