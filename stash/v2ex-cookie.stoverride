@@ -16,5 +16,5 @@ http:
 
 script-providers:
   v2ex-cookie:
-    url: https:https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.cookie.js
+    url: https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.cookie.js
     interval: 86400
