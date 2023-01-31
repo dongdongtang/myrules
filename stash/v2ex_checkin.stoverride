@@ -6,14 +6,6 @@ http:
   mitm:
     - "*.v2ex.com"
 
-  # 获取v2ex Cookie
-  script:
-    - match: ^https:\/\/www\.v2ex\.com\/mission\/daily
-      name: v2excheckin 
-      type: request
-      require-body: true
-      timeout: 30
-   
 cron:
   # 签到
   script:
@@ -23,5 +15,5 @@ cron:
  
 script-providers:
   v2excheckin:
-    url: https: https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js
+    url: https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js
     interval: 86400
