@@ -10,7 +10,7 @@ cron:
   # 签到
   script:
     - name: v2excheckin
-      cron: '24 05 * * *'
+      cron: '9 0 * * *'
       timeout: 60
  
 script-providers:
