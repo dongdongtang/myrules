@@ -1,0 +1,19 @@
+name: v2ex签到
+desc: 签到脚本将在每天的凌晨0:10执行
+
+
+http:
+  mitm:
+    - "*.v2ex.com"
+   
+cron:
+  # 签到
+  script:
+    - name: v2excheckin
+      cron: '10 0 0 * * *'
+      timeout: 60
+ 
+script-providers:
+  v2excheckin:
+    url: https: https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js
+    interval: 86400
