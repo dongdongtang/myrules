@@ -269,6 +269,8 @@ http:
     - ^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 - reject-200
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject-200
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.allresource - reject
+    - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ - reject
     
   script:
     # > 12306
@@ -551,6 +553,7 @@ http:
     - "m.client.10010.com"
     - "webappcfg.paas.cmbchina.com"
     - "3g.csair.com"
+    - "cn-acs.m.cainiao.com"
 
 script-providers:
   12306.js:
