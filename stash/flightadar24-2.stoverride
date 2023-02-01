@@ -1,0 +1,19 @@
+name: flightradar24 墨鱼高级解锁
+desc: flightradar24 墨鱼高级解锁
+
+http:
+  mitm:
+    - "mobile.flightradar24.com"
+  script:
+    - match: ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9})
+      name: flightradar24
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  flightradar24:
+    url: https://github.com/ddgksf2013/dev/raw/main/flightradar24.js
+    interval: 86400    
+
+
