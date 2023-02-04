@@ -608,6 +608,6 @@ script-providers:
   UnblockURLinWeChat.js:
     url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
     interval: 86400
-  ciaoniao.js:
+  cainiao.js:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
     interval: 86400
