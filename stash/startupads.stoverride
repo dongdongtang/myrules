@@ -342,6 +342,28 @@ http:
       require-body: true
       timeout: 30
       max-size: 0
+    # > 菜鸟裹裹 菜鸟裹裹_首页中部的惊喜福利推广
+    - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn
+      name: cainiao.js
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+    # > 菜鸟裹裹 菜鸟裹裹_搜索框下方今日好物推荐
+    - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword
+      name: cainiao.js
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+    # > 菜鸟裹裹 菜鸟裹裹_首页底部商品推广
+    - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index\.cn
+      name: cainiao.js
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+      
   mitm:
     - "ad.12306.cn"
     - "103.91.210.141"
@@ -585,4 +607,7 @@ script-providers:
     interval: 86400
   UnblockURLinWeChat.js:
     url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
+    interval: 86400
+  ciaoniao.js:
+    url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
     interval: 86400
