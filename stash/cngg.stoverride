@@ -2,4 +2,4 @@ name: 菜鸟本地分流
 desc: 菜鸟本地分流
 
 rules:
-   - host,amdc.m.taobao.com reject
+   - host,amdc.m.taobao.com,reject
