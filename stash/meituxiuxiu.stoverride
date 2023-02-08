@@ -14,5 +14,5 @@ http:
       timeout: 10
 script-providers:
   MTXX:
-    url: https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiTuXiuXiu.js
+    url: https://github.com/ddgksf2013/dev/raw/main/MeiTuXiuXiuProCrack.js
     interval: 86400
