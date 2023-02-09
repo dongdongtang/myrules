@@ -1,0 +1,17 @@
+name: Revenuecat解锁系列
+desc: Revenuecat解锁系列
+
+http:
+  mitm:
+    - "api.revenuecat.com"
+  script:
+    - match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(.*?)*$)
+      name: Revenuecat
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  Revenuecat:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js
+    interval: 86400    
