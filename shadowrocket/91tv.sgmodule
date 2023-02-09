@@ -1,0 +1,9 @@
+#!name=91tv
+#!desc=91tv
+#!system=ios
+
+[Script]
+91tv = type=http-response,pattern= ^https?:\/\/.*\/m\w{5}\/m\w{3}-\w{7}\/.*\/index.*,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/yqc007/QuantumultX/master/91TVideoAllCrack.js,script-update-interval=0 
+
+[MITM]
+hostname = %APPEND% chvtv.xcsxchen.xyz, oqxv.8r09phi.com, iwx68v.8gbhr.com
