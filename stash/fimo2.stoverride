@@ -1,6 +1,5 @@
 name: Fimo
-desc: Fimo破解高级会员。脚本来自网络大神，由tangdong改写。
-# 解锁高级会员
+desc: Fimo破解高级会员
 
 http:
   mitm:
