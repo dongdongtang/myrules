@@ -13,5 +13,5 @@ http:
       timeout: 10
 script-providers:
   Fimo:
-    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/fimo.js
+    url: https://github.com/deezertidal/private/raw/master/js-backup/Crack/fimo.js
     interval: 86400
