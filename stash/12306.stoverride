@@ -1,0 +1,17 @@
+name: 12306
+desc: 12306去广告
+
+http:
+  mitm:
+    - "ad.12306.cn"
+  script:
+    - match: ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
+      name: 12306
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  12306:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/12306.js
+    interval: 86400    
