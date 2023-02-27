@@ -30,5 +30,5 @@ cron:
 
 script-providers:
   "联通余量(v4)":
-    url: "https://raw.githubusercontent.com/xream/scripts/main/surge/modules/10010v4/10010.js"
+    url: "https://raw.githubusercontent.com/dongdongtang/myrules/master/stash/10010.js"
     interval: 86400
