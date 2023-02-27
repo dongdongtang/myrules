@@ -1,0 +1,34 @@
+name: 联通余量(v4)
+desc: 定时查询联通流量
+
+http:
+  force-http-engine:
+    - "10010v4"
+  mitm:
+    - 10010v4.com
+  script:
+    - match: ^https?:\/\/10010v4\.com
+      name: "联通余量(v4)"
+      type: request
+      # require-body: true
+      timeout: 60
+      # debug: true
+
+tiles:
+  - name: "联通余量(v4)"
+    interval: 300
+    title: "联通余量"
+    content: ""
+    icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10010.png"
+    backgroundColor: "#663399"
+
+cron:
+  script:
+    - name: "联通余量(v4)"
+      cron: "*/15 * * * *" # at every 5th minute
+      timeout: 60
+
+script-providers:
+  "联通余量(v4)":
+    url: "https://raw.githubusercontent.com/xream/scripts/main/surge/modules/10010v4/10010.js"
+    interval: 86400
