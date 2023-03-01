@@ -35,5 +35,5 @@ cron:
 
 script-providers:
   "联通余量(v4)":
-    url: "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js"
+    url: "https://raw.githubusercontent.com/dongdongtang/myrules/master/10010/10010.js"
     interval: 86400
