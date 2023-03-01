@@ -15,5 +15,5 @@ tiles:
     interval: 600
 script-providers:
   Telecom_Auto:
-    url: https://github.com/ChinaTelecomOperators/ChinaTelecom/releases/download/Prerelease-Alpha/Tele_Cellular_Auto.js
+    url: https://github.com/dongdongtang/myrules/blob/master/10001/Tele_Cellular_Auto.js
     interval: 86400
