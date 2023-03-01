@@ -1,9 +1,9 @@
 {
   "id": "alt",
-  "name": "@花猫的订阅",
+  "name": "@东的订阅",
   "author": "@Alt_Option",
   "icon": "https://raw.githubusercontent.com/LitPrompt/Module/main/Asset/Cat.png",
-  "repo": "https://github.com/LitPrompt/Module",
+  "repo": "https://github.com/dongdongtang/myrules",
   "apps": [
    {
       "id": "Tele_Check",
@@ -290,7 +290,7 @@
     ],
       "author": "@Alt_Option",
       "repo": "https://github.com/LitPrompt/Module",
-      "script": "https://github.com/ChinaTelecomOperators/ChinaTelecom/releases/download/Prerelease-Alpha/Tele_Cellular_Auto.js",
+      "script": "https://github.com/dongdongtang/myrules/blob/master/10001/Tele_Cellular_Auto.js",
       "icons": ["https://raw.githubusercontent.com/LitPrompt/Module/main/Asset/Telecom.png","https://raw.githubusercontent.com/LitPrompt/Module/main/Asset/Telecom.png"]
     }
   ]
