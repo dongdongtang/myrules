@@ -1,0 +1,4 @@
+#!name=电信余量(自动版)
+#!desc=请前往BoxJS安装 https://github.com/ChinaTelecomOperators/ChinaTelecom/releases/download/Prerelease-Alpha/Tele.json这个订阅
+[Script]
+电信余量(自动版) = type=cron,script-path=https://github.com/ChinaTelecomOperators/ChinaTelecom/releases/download/Prerelease-Alpha/Tele_Cellular_Auto.js,cronexpr="*/5 * * * *",timeout=10,script-update-interval=86400
