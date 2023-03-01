@@ -1,15 +1,15 @@
 {
   "id": "ChinaUnicom.app.sub",
-  "name": "ChinaUnicom 的应用订阅",
+  "name": "东东的中国联通的应用订阅",
   "author": "ChinaUnicomDev",
   "icon": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10010.png",
-  "repo": "https://github.com/ChinaTelecomOperators",
+  "repo": "https://github.com/dongdongtang/myrules/tree/master/10010",
   "apps": [
     {
       "id": "ChinaUnicom.10010v4",
       "name": "联通余量(v4)",
       "descs_html": [
-        "<a href=\"https://github.com/ChinaTelecomOperators/ChinaUnicom\">查看文档</a>",
+        "<a href=\"https://github.com/dongdongtang/myrules/tree/master/10010\">查看文档</a>",
         "<a onClick=\"window.location.reload(true);\"><b style='color: yellow'>点此刷新</b></a>",
         "<h4 style='color: red'>因为数据会覆盖 请务必先刷新 再修改 再保存</h4>",
         "<b style='color: green'>登录方式一</b>",
@@ -51,19 +51,19 @@
         "@ChinaUnicom.10010v4.vars"
       ],
       "author": "ChinaUnicomDev",
-      "repo": "https://github.com/ChinaTelecomOperators/ChinaUnicom",
+      "repo": "https://github.com/dongdongtang/myrules/tree/master/10010",
       "scripts": [
         {
           "name": "发送验证码（填手机号, 保存, 执行）",
-          "script": "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010_send_sms.js"
+          "script": "https://raw.githubusercontent.com/dongdongtang/myrules/master/10010/10010_send_sms.js"
         },
         {
           "name": "用验证码登录（填手机号, 验证码, 保存, 执行 ⚠️ 执行后 记得刷新）",
-          "script": "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010_sms_sign.js"
+          "script": "https://raw.githubusercontent.com/dongdongtang/myrules/master/10010/10010_sms_sign.js"
         },
         {
           "name": "手动执行查询（⚠️ 执行后 记得刷新）",
-          "script": "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js"
+          "script": "https://raw.githubusercontent.com/dongdongtang/myrules/master/10010/10010.js"
         }
       ],
       "settings": [
