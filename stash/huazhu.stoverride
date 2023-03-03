@@ -1,0 +1,24 @@
+name: 华住会获取签到Cookie和签到
+desc: 华住会获取签到Cookie和签到
+
+http:
+  mitm:
+    - "wxgzpt.hn.sgcc.com.cn"
+
+  script:
+    - match: https:\/\/hweb-mbf\.huazhu\.com\/api\/signIn
+      name: hzh
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+cron:
+  script:
+    - name: hzh
+      cron: '5 0 * * *'
+      timeout: 60
+ 
+script-providers:
+  hzh:
+    url: https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/hzh/hzh.js
+    interval: 86400
