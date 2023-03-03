@@ -1,0 +1,24 @@
+name: 国网电费-湖南获取余额Cookie
+desc: 国网电费-湖南获取余额Cookie
+
+http:
+  mitm:
+    - "wxgzpt.hn.sgcc.com.cn"
+
+  script:
+    - match: https:\/\/wxgzpt.hn.sgcc.com.cn\/hndlGateway\/payment\/payment\/balance
+      name: dw
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+cron:
+  script:
+    - name: dw
+      cron: '5 0 * * *'
+      timeout: 60
+ 
+script-providers:
+  dw:
+    url: https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/energybill/billhn.js
+    interval: 86400

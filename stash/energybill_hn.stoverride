@@ -1,0 +1,17 @@
+name: 国网电费-湖南获取Cookie
+desc: 国网电费-湖南获取Cookie
+
+http:
+  mitm:
+    - "wxgzpt.hn.sgcc.com.cn"
+  script:
+    - match: https:\/\/wxgzpt.hn.sgcc.com.cn\/wxapp\_dlsh\/wx
+      name: dw
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  dw:
+    url: https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/energybill/billhn.js
+    interval: 86400    
