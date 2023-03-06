@@ -3,7 +3,7 @@ desc: 华住会获取签到Cookie和签到
 
 http:
   mitm:
-    - "wxgzpt.hn.sgcc.com.cn"
+    - "hweb-mbf.huazhu.com"
 
   script:
     - match: https:\/\/hweb-mbf\.huazhu\.com\/api\/signIn
