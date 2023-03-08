@@ -6,12 +6,12 @@ http:
     - "biz.caiyunapp.com"
   script:
     - match: https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user)
-      name: TOKCAM
+      name: cytq
       type: response
       require-body: true
       timeout: 30
       max-size: 0
 script-providers:
-  TOKCAM:
+  cytq:
     url: https://raw.githubusercontent.com/githubdulong/Script/master/cytq.js
     interval: 86400    
