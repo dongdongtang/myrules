@@ -4,6 +4,7 @@ desc: 彩云天气解锁
 http:
   mitm:
     - "biz.caiyunapp.com"
+    - "biz.cyapi.cn"
   script:
     - match: ^https:\/\/biz\.(caiyunapp\.com|cyapi\.cn)\/v2\/user\?app_name\=weather
       name: cytq
