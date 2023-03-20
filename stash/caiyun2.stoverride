@@ -5,7 +5,7 @@ http:
   mitm:
     - "biz.caiyunapp.com"
   script:
-    - match: https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user)
+    - match: ^https:\/\/biz\.(caiyunapp\.com|cyapi\.cn)\/v2\/user\?app_name\=weather
       name: cytq
       type: response
       require-body: true
@@ -13,5 +13,5 @@ http:
       max-size: 0
 script-providers:
   cytq:
-    url: https://raw.githubusercontent.com/githubdulong/Script/master/cytq.js
+    url: https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Weather/weather.js
     interval: 86400    
