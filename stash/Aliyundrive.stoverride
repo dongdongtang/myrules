@@ -1,11 +1,11 @@
-name: 阿里云盘优化首页
-desc: 阿里云盘优化首页
+name: 阿里云盘 净化/解锁SVIP
+desc: 阿里云盘 净化/解锁SVIP
 
 http:
   mitm:
-    - "api.aliyundrive.com"
+    - "*.aliyundrive.com"
   script:
-    - match: ^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/users\/apps\/widgets$
+    - match: ^https?:\/\/(api|member)\.aliyundrive\.com
       name: aliyundrive
       type: response
       require-body: true
@@ -13,5 +13,5 @@ http:
       max-size: 0
 script-providers:
   aliyundrive:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/alidrive.js
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/alidrive.js
     interval: 86400    
