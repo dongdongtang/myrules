@@ -12,6 +12,6 @@ http:
       timeout: 30
       max-size: 0
 script-providers:
-  Xjy:
+  xjy:
     url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/xijiangshici.js
     interval: 86400    
