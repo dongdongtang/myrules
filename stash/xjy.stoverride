@@ -1,0 +1,17 @@
+name: 西江月解锁
+desc: 西江月解锁
+
+http:
+  mitm:
+    - "api.revenuecat.com"
+  script:
+    - match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(.*?)*$)
+      name: xjy
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  Xjy:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/xijiangshici.js
+    interval: 86400    
