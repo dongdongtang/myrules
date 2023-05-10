@@ -3,9 +3,9 @@ desc: Fimo破解高级会员
 
 http:
   mitm:
-    - "server.yoyiapp.com"
+    - "server.*.com"
   script:
-    - match: ^https:\/\/server\.yoyiapp\.com
+    - match: ^https:\/\/server\.(yoyiapp|zbisq)\.com
       name: Fimo
       type: response
       require-body: true
