@@ -1,0 +1,6 @@
+#!name=Fimo
+#!desc=Fimo
+[Script]
+Fimo=type=http-response,pattern=^https:\/\/server\.(yoyiapp|zbisq)\.com,requires-body=1,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/fimo.js
+[MITM]
+hostname= %APPEND% server.*.com
