@@ -1,0 +1,17 @@
+name: 网易云音乐听vip
+desc: 网易云音乐听vip
+
+http:
+  mitm:
+    - "*.music.163.com"
+  script:
+    - match: ^https:^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$
+      name: 163net
+      type: request
+      require-body: true
+      binary-body-mode: true
+      timeout: 10
+script-providers:
+  163net:
+    url: https://raw.githubusercontent.com/WeiRen0/Scripts/main/wyun.js
+    interval: 86400
