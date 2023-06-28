@@ -1,0 +1,59 @@
+name: 菜鸟[菜鸟裹裹](支付宝小程序)净化
+desc: 菜鸟[菜鸟裹裹](支付宝小程序)净化
+
+http:
+  mitm:
+    - "cn-acs.m.cainiao.com"
+    - "guide-acs.m.taobao.com"
+
+  url-rewrite:
+    # > 菜鸟裹裹_通用广告请求
+    - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ - reject-200
+    # > 菜鸟裹裹_支付宝小程序_通用广告请求
+    - ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show - reject-200
+    # > 菜鸟裹裹_支付宝小程序_底部商品推广
+    - ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad - reject-200
+    # > 菜鸟裹裹_支付宝小程序_匿名选择
+    - ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.consultmerge - reject-200
+    
+  script:
+    # # > 菜鸟裹裹_支付宝小程序_中部的寄件推广[导致的空白占位后续处理]
+    - match: ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow
+      name: cngg
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+    # # > 菜鸟裹裹_amdc处理[Anti已将Amdc分流删除,故更换屏蔽策略]
+    - match: ^http:\/\/amdc\.m\.taobao\.com
+      name: cngg
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+    # # > 菜鸟裹裹_首页中部的惊喜福利推广
+    - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn
+      name: cngg
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+    # # > 菜鸟裹裹_搜索框下方今日好物推荐
+    - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword
+      name: cngg
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+    # > 菜鸟裹裹_首页底部商品推广
+    - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index\.cn
+      name: cngg
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+     
+script-providers:
+  cngg:
+    url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
+    interval: 86400 
