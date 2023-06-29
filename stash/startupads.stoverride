@@ -159,7 +159,8 @@ http:
     - ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
     - ^https?:\/\/adpai\.thepaper\.cn\/.+&ad= - reject
     - ^https:\/\/us\.l\.qq\.com\/exapp\?spsa=\d - reject
-    - https://homefront.qunar.com/front/splash/ad - reject
+    #- https://homefront.qunar.com/front/splash/ad - reject
+    - ^https:\/\/homefront\.qunar\.com\/front\/splash\/ad - reject-dict
     - ^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd - reject
     - ^https?:\/\/adproxy.autohome.com.cn\/AdvertiseService\/ - reject
     - ^https?:\/\/app2.autoimg.cn\/appdfs\/ - reject
