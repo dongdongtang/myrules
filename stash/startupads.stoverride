@@ -339,6 +339,15 @@ http:
     # > 涨乐财富通
     - ^https:\/\/geetest\.htsc\.com:8888\/pre_get_token - reject-200
     - ^http:\/\/119\.29\.29\.98\/d - reject-200
+    # > 中国移动
+    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
+    # 多个悬浮窗 感谢#热心网友分享
+    - ^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket - reject
+    # > 中国移动云盘
+    - ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/IAdvert - reject-200
+    - ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/v\d\/getAdverts - reject-200
+    - ^https?:\/\/middle\.yun\.139\.com\/openapi\/cardConfig\/queryCardInfoV3 - reject-200
+    - ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos - reject-200
 
   script:
     # > 12306
@@ -709,8 +718,118 @@ http:
     - "ossgw.alicdn.com"
     - "heic.alicdn.com"
     - "ccmsupport-sz.tenpay.com"
+    - "ad.mcloud.139.com"
+    - "ad.mcloud.139.com"
+    - "api.rr.tv"
+    - "capis.didapinche.com"
+    - "capis*.didapinche.com"
+    - "*.hoopchina.com"
+    - "goblin.hupu.com"
+    - "spclient.wg.spotify.com"
+    - "gd.10086.cn"
+    - "m.client.10010.com"
+    - "webappcfg.paas.cmbchina.com"
+    - "3g.csair.com"
+    - "cn-acs.m.cainiao.com"
+    - "www.flyert.com"
+    - "ucmp.sf-express.com"
+    - "adm.10jqka.com.cn"
+    - "stat.10jqka.com.cn"
+    - "elife.icbc.com.cn"
+    - "pv.elife.icbc.com.cn"
+    - "ccsp-egmas.sf-express.com"
+    - "iobs.pingan.com.cn"
+    - "shopic.sf-express.com"
+    - "mobile.cebbank.com"
+    - "res.kfc.com.cn"
+    - "v.icbc.com.cn"
+    - "ecard.shenzhentong.com"
+    - "cdn.sdb.com.cn"
+    - "wap.bank.ecitic.com"
+    - "oss-cn-beijing.aliyuncs.com"
+    - "geetest.htsc.com"
+    - "ossgw.alicdn.com"
+    - "heic.alicdn.com"
+    - "ccmsupport-sz.tenpay.com"
+    - "ad.mcloud.139.com"
+    - "ad.mcloud.139.com"
+   - "ad.mcloud.139.com"
+middle.yun.139.com
 
 
+
+
+script-providers:
+  12306.js:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/12306.js
+    interval: 86400
+  alidrive.js:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/alidrive.js
+    interval: 86400
+  BahamutAnimeAds.js:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutAnimeAds.js
+    interval: 86400
+  fly.js:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/fly.js
+    interval: 86400
+  startup.js:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/startup.js
+    interval: 86400
+  coolapk.js:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
+    interval: 86400
+  spotify-proto.js:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+    interval: 86400
+  shunfeng_json.js:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/shunfeng_json.js
+    interval: 86400
+  stay.js:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/stay.js
+    interval: 86400
+  UnblockURLinWeChat.js:
+    url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
+    interval: 86400
+  cainiao.js:
+    url: https:raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
+    interval: 86400
+  fk.js:
+    url: https:raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/fly.js
+    interval: 86400    - "api.rr.tv"
+    - "capis.didapinche.com"
+    - "capis*.didapinche.com"
+    - "*.hoopchina.com"
+    - "goblin.hupu.com"
+    - "spclient.wg.spotify.com"
+    - "gd.10086.cn"
+    - "m.client.10010.com"
+    - "webappcfg.paas.cmbchina.com"
+    - "3g.csair.com"
+    - "cn-acs.m.cainiao.com"
+    - "www.flyert.com"
+    - "ucmp.sf-express.com"
+    - "adm.10jqka.com.cn"
+    - "stat.10jqka.com.cn"
+    - "elife.icbc.com.cn"
+    - "pv.elife.icbc.com.cn"
+    - "ccsp-egmas.sf-express.com"
+    - "iobs.pingan.com.cn"
+    - "shopic.sf-express.com"
+    - "mobile.cebbank.com"
+    - "res.kfc.com.cn"
+    - "v.icbc.com.cn"
+    - "ecard.shenzhentong.com"
+    - "cdn.sdb.com.cn"
+    - "wap.bank.ecitic.com"
+    - "oss-cn-beijing.aliyuncs.com"
+    - "geetest.htsc.com"
+    - "ossgw.alicdn.com"
+    - "heic.alicdn.com"
+    - "ccmsupport-sz.tenpay.com"
+    - "ad.mcloud.139.com"
+    - "middle.yun.139.com"
+    - "mcmm.caiyun.feixin.10086.cn"
+       
 script-providers:
   12306.js:
     url: https://github.com/ddgksf2013/Scripts/raw/master/12306.js
