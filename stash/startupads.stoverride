@@ -96,8 +96,6 @@ http:
     - ^https?:\/\/explorer\.tratao\.com\/api\/client\/v4\/xtransfer\/ad\/ - reject
     - ^https?:\/\/api\.jxedt\.com\/ad\/ - reject
     - ^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/ - reject
-    - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A002 - reject
-    - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A009 - reject
     - ^https?:\/\/res.kfc.com.cn\/advertisement\/ - reject
     - ^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ - reject
     - ^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ - reject
@@ -295,6 +293,7 @@ http:
     # > 建行生活
     - ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB03  - reject-200
     - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9)  - reject-200
+    - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A002 - reject
     # > 肯德基
     - ^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome5\/apphome - reject-200
     - ^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome6\/\w+\.json\? - reject-200
@@ -309,7 +308,8 @@ http:
     - ^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list - reject-200
     - https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryAdImages - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
-
+    # > 微信 腾讯乘车码小程序
+    - ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
   
  
 
@@ -680,6 +680,8 @@ http:
     - "geetest.htsc.com"
     - "ossgw.alicdn.com"
     - "heic.alicdn.com"
+    - "ccmsupport-sz.tenpay.com"
+
 
 script-providers:
   12306.js:
