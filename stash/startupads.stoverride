@@ -282,6 +282,10 @@ http:
     - ^https?:\/\/ptf\.flyertrip\.com\/common\/cf\/.*.jpg - reject-200
     - ^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
     - ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis.* - reject
+    # > 光大银行
+    - ^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList - reject-200
+    # > 光大银行 阳光惠生活
+    - ^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg - reject-200
    
   script:
     # > 12306
