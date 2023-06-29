@@ -186,7 +186,7 @@ http:
     - ^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ - reject
     - ^https://acs.m.taobao.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.* - reject
     - ^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg - reject
-    - https://top-widgets-api.xiaozujian.com/api/ad/config - reject
+    #- https://top-widgets-api.xiaozujian.com/api/ad/config - reject
     - ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) - reject
     - ^https?:\/\/r\.inews\.qq\.com\/getBannerAds - reject
     - ^https?:\/\/r\.inews\.qq\.com\/getNewsRemoteConfig - reject
@@ -593,7 +593,7 @@ http:
     - "new.vip.weibo.cn"
     - "wap.js.10086.cn"
     - "tagit.hyhuo.com"
-    - "top-widgets-api.xiaozujian.com"
+    #- "top-widgets-api.xiaozujian.com"
     - "tel.mangaapi.manhuaren.com"
     - "apis.lifeweek.com.cn"
     - "support.you.163.com"
