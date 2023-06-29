@@ -293,7 +293,7 @@ http:
     # > 广发银行
     - ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/accurate\/202\d{5}\/.*.(png|jpg) - reject-200
     - ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/advertising\/202\d{5}\/.*.(png|jpg) - reject-200
-    - ^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg) - reject-im
+    - ^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg) - reject-200
     - ^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/.+\/(.+1125.+2436|.+60176) - reject-200
     # > 建行生活
     - ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB03  - reject-200
