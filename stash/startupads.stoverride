@@ -278,38 +278,7 @@ http:
     # > 飞常准
     - ^https?:\/\/app\.variflight\.com\/ad\/ - reject
     - ^https?:\/\/app\.variflight\.com\/v\d\/advert\/ - reject
-    # > 飞客茶馆
-    - ^https?:\/\/ptf\.flyertrip\.com\/common\/cf\/.*.jpg - reject-200
-    - ^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
-    - ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis.* - reject
-    # > 光大银行
-    - ^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList - reject-200
-    # > 光大银行 阳光惠生活
-    - ^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg - reject-200
-    # > 工银E生活
-    - ^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif - reject-200
-    # > 工银e生活小程序 有需要自己添加主机名：elife.icbc.com.cn
-    - ^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do - reject-200
-    # > 广发银行
-    - ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/accurate\/202\d{5}\/.*.(png|jpg) - reject-200
-    - ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/advertising\/202\d{5}\/.*.(png|jpg) - reject-200
-    # > 建行生活
-     - ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB03  - reject-200
-     - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9)  - reject-200
-    # > 肯德基
-     - ^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome5\/apphome  - reject-200
-     - ^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome6\/\w+\.json\?  - reject-dict
-    # > 口袋银行
-     - ^https:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg  - reject-200
-    # > 深圳通
-     - ^https?:\/\/ecard\.shenzhentong\.com\/wxweb\/bwxppub2\/QryAdvertList\.do  - reject-200
-    # > 顺丰
-     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject-dict
-     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject
-     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
-     - ^https://mapi.sfbest.com\/brokerservice-server\/cms\/getPositionById.* - reject
-     - ^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list - reject-200
-
+   
   script:
     # > 12306
     - match: ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
