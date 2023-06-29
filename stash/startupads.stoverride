@@ -278,6 +278,10 @@ http:
     # > 飞常准
     - ^https?:\/\/app\.variflight\.com\/ad\/ - reject
     - ^https?:\/\/app\.variflight\.com\/v\d\/advert\/ - reject
+    # > 飞客茶馆
+    - ^https?:\/\/ptf\.flyertrip\.com\/common\/cf\/.*.jpg - reject-200
+    - ^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
+    - ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis.* - reject
    
   script:
     # > 12306
