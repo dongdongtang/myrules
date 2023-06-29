@@ -346,8 +346,8 @@ http:
     - ^https?:\/\/middle\.yun\.139\.com\/openapi\/cardConfig\/queryCardInfoV3 - reject-200
     - ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos - reject-200
     # > 买单吧
-    #- ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do - reject-200
-    #- ^https?:\/\/creditcard\.bankcomm\.com\/tfimg\/public00\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/[a-zA-Z0-9]{30}\.(jpg|png) - reject-200
+    - ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do - reject
+    - ^https?:\/\/creditcard\.bankcomm\.com\/tfimg\/public00\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/[a-zA-Z0-9]{30}\.(jpg|png) - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$ - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ - reject
     # > 马蜂窝
