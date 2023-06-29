@@ -88,8 +88,6 @@ http:
     - ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
     - ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - reject
-    - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$ - reject
-    - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ - reject
     - ^https?:\/\/img\.jiemian\.com\/ads\/ - reject
     - ^https?:\/\/jad-api\.jin10\.com\/ad - reject
     - ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery - reject
@@ -137,7 +135,6 @@ http:
     - ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture - reject
     - ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\?ad - reject
     - ^https?:\/\/capi.mwee.cn\/app-api\/V12\/app\/getstartad - reject
-    - ^https://mapi.mafengwo.cn\/ad\/get_launch_ad_list\/v2 - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert - reject
     - ^https?://tel.mangaapi.manhuaren.com/(v2/public/getStartUpMessage|v1/public/getStartPageAds) - reject
     - http://tel.mangaapi.manhuaren.com/v2/ad/getMultiAdsStrategy - reject
@@ -351,8 +348,11 @@ http:
     # > 买单吧
     - ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do - reject-200
     - ^https?:\/\/creditcard\.bankcomm\.com\/tfimg\/public00\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/[a-zA-Z0-9]{30}\.(jpg|png) - reject-200
+    - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$ - reject
+    - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ - reject
     # > 马蜂窝
     - ^https:\/\/mapi\.mafengwo\.cn\/ad\/get_launch_ad_list\/v - reject-200
+    - ^https://mapi.mafengwo.cn\/ad\/get_launch_ad_list\/v2 - reject
 
   script:
     # > 12306
@@ -622,7 +622,6 @@ http:
     - "fuss10.elemecdn.com"
     - "www1.elecfans.com"
     - "m.tuniu.com"
-    - "mapi.mafengwo.cn"
     - "api.xiaoyi.com"
     - "api.douban.com"
     - "otheve.beacon.qq.com"
