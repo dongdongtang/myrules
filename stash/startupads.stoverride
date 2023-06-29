@@ -271,7 +271,11 @@ http:
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject-200
     - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.allresource - reject
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ - reject
-    
+    # > 发现精彩
+    - ^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/.+\/(.+1125.+2436|.+60176) - reject-200
+    # > 淘票票
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryloadingbanner - reject-200
+    - ^https://acs.m.taobao.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.* - reject
   script:
     # > 12306
     - match: ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
