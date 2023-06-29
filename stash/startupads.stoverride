@@ -286,6 +286,10 @@ http:
     - ^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList - reject-200
     # > 光大银行 阳光惠生活
     - ^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg - reject-200
+    # > 工银E生活
+    - ^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif - reject-200
+    # > 工银e生活小程序 有需要自己添加主机名：elife.icbc.com.cn
+    - ^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do - reject-200
    
   script:
     # > 12306
