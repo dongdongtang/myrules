@@ -310,9 +310,21 @@ http:
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
     # > 微信 腾讯乘车码小程序
     - ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
-  
- 
-
+    # > 天猫精灵
+    - ^https:\/\/ossgw.alicdn.com\/creatives-assets\/image\/ - reject-200
+    # > 微信
+    # 微信公众号去除商品推广
+    - ^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info\?action - reject-200
+    # > 中信银行
+    - ^https?:\/\/wap.bank\.ecitic\.com:6443\/NMBFOServer\/cbframework\.do\?act=CUBEPAGEDATA - reject-200
+    # > TubeMax 
+    - ^https:\/\/.*\.i18n-pglstatp\.com\/obj\/ad-pattern-sg - reject
+    # > 同花顺
+    - ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject-200
+    # 同花顺至尊版 
+    - ^https:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad - reject-200
+    # > 同程旅行 开屏广告 
+    - ^https:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(screen|banner|converge)))$ - reject
 
   script:
     # > 12306
@@ -415,6 +427,7 @@ http:
       
   mitm:
     - "ad.12306.cn"
+    - "*.i18n-pglstatp.com"
     - "103.91.210.141"
     - "adx-cn.anythinktech.com"
     - "js-ad.ayximgs.com"
@@ -629,7 +642,7 @@ http:
     - "static.95508.com"
     - "ptf.flyertrip.com"
     - "app.variflight.com"
-    - "app.variflight.com"
+    - "wx.17u.cn"
     - "testflight.apple.com"
     - "rich.kuwo.cn"
     - "*.kwcdn.kuwo.cn"
@@ -664,7 +677,8 @@ http:
     - "cn-acs.m.cainiao.com"
     - "www.flyert.com"
     - "ucmp.sf-express.com"
-    - "ptf.flyertrip.com"
+    - "adm.10jqka.com.cn"
+    - "stat.10jqka.com.cn"
     - "elife.icbc.com.cn"
     - "pv.elife.icbc.com.cn"
     - "ccsp-egmas.sf-express.com"
