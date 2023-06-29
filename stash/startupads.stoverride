@@ -181,9 +181,6 @@ http:
     - ^https?://spclient.wg.spotify.com/.+promoted_offer - reject
     - ^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ - reject
     - https://apis.lifeweek.com.cn/api/baseConfig/getIosNewConfig - reject
-    - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject
-    - https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryAdImages - reject
-    - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
     - ^https:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject
     - ^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo - reject
     - ^http?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ - reject
@@ -305,7 +302,18 @@ http:
     - ^https:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg  - reject-200
     # > 深圳通
     - ^https?:\/\/ecard\.shenzhentong\.com\/wxweb\/bwxppub2\/QryAdvertList\.do  - reject-200
-   
+    # > 顺丰
+    - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject
+    - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject
+    - ^https://mapi.sfbest.com\/brokerservice-server\/cms\/getPositionById.* - reject
+    - ^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list - reject-200
+    - https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryAdImages - reject
+    - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
+
+  
+ 
+
+
   script:
     # > 12306
     - match: ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
