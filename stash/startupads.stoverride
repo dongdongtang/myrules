@@ -353,6 +353,9 @@ http:
     # > 马蜂窝
     - ^https:\/\/mapi\.mafengwo\.cn\/ad\/get_launch_ad_list\/v - reject-200
     - ^https://mapi.mafengwo.cn\/ad\/get_launch_ad_list\/v2 - reject
+    # > 富途牛牛
+    - ^https?:\/\/api\d\.futunn\.com\/ad\/ - reject
+    - ^https?:\/\/api\.futunn\.com\/v\d\/ad\/ - reject
 
   script:
     # > 12306
@@ -715,7 +718,8 @@ http:
     - "creditcardapp.bankcomm.cn"
     - "creditcard.bankcomm.com"
     - "mapi.mafengwo.cn"
-
+    - "api*.futunn.com"
+ 
 script-providers:
   12306.js:
     url: https://github.com/ddgksf2013/Scripts/raw/master/12306.js
