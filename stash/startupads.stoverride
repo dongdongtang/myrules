@@ -356,6 +356,8 @@ http:
     # > 富途牛牛
     - ^https?:\/\/api\d\.futunn\.com\/ad\/ - reject
     - ^https?:\/\/api\.futunn\.com\/v\d\/ad\/ - reject
+    - ^https:\/\/api\.futunn\.com\/v2\/optimus\/my-homepage-config - reject
+    - ^https:\/\/api\.futunn\.com\/v2\/config\/promote-config - reject
 
   script:
     # > 12306
