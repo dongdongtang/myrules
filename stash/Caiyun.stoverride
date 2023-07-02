@@ -3,7 +3,7 @@ desc: 彩云天气VIP
 
 http:
   mitm:
-    - "biz.caiyunapp.com"
+    - "biz.cyapi.cn"
   script:
     - match: ^https:\/\/biz.(caiyunapp\.com|cyapi\.cn)\/v\d\/(user\?app_name=weather|visitors|login_by_code)$
       name: caiyun
