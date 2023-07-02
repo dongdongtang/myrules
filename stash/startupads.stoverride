@@ -358,6 +358,11 @@ http:
     - ^https?:\/\/api\.futunn\.com\/v\d\/ad\/ - reject
     - ^https:\/\/api\.futunn\.com\/v2\/optimus\/my-homepage-config - reject
     - ^https:\/\/api\.futunn\.com\/v2\/config\/promote-config - reject
+    # > 中国银行
+    - ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg - reject-200
+    # > 中国银行 缤纷生活
+    - ^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 - reject-200
+
 
   script:
     # > 12306
@@ -721,6 +726,8 @@ http:
     - "creditcard.bankcomm.com"
     - "mapi.mafengwo.cn"
     - "api*.futunn.com"
+    - "mlife.jf365.boc.cn"
+    - "mbs.boc.cn"
  
 script-providers:
   12306.js:
