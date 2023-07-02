@@ -5,7 +5,7 @@ http:
   mitm:
     - "biz.caiyunapp.com"
   script:
-    - match: https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user)
+    - match: ^https:\/\/biz.(caiyunapp\.com|cyapi\.cn)\/v\d\/(user\?app_name=weather|visitors|login_by_code)$
       name: caiyun
       type: response
       require-body: true
@@ -13,5 +13,5 @@ http:
       max-size: 0
 script-providers:
   caiyun:
-    url: https://raw.githubusercontent.com/Tartarus2014/Script/master/CaiYun.js
+    url: https://raw.githubusercontent.com/wf021325/qx/master/js/caiyun.js
     interval: 86400    
