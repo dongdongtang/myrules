@@ -746,6 +746,8 @@ http:
     - "lban.spdb.com.cn"
     - "wap.spdb.com"
     - "image.spdbccc.com.cn"
+    - “rs.creditcard.cmbc.com.cn”
+    - “www.cmbc.com.can"
  
 script-providers:
   12306.js:
