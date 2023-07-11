@@ -1,5 +1,5 @@
-name: ReLens-相机APP
-desc: 解锁会员。特别说明：非一次性解锁，每次使用需要开启，先开启规则，再进入软件即可！
+name: ReLens
+desc: 解锁会员
 
 http:
   mitm:
