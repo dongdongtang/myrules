@@ -377,9 +377,6 @@ http:
     - ^https:\/\/www\.cmbc\.com\.cn\/m\/image\/banner\/.*.png - reject-200
     # > 全民生活
     - ^https://rs.creditcard.cmbc.com.cn/mmc/img/126f35586ece469aa2daf2e451ba7b4d.jpg - reject-200
-    # > 乐刻
-    #- ^https?:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.lefit\.dubbo\.cms\.api\.front\.AppAdvertisingFrontService\/getAppAdvertisingNew - reject-200
-
 
 
   script:
@@ -749,7 +746,7 @@ http:
     - "lban.spdb.com.cn"
     - "wap.spdb.com"
     - "image.spdbccc.com.cn"
-    - "rs.creditcard.cmbc.com.cn”
+    - "rs.creditcard.cmbc.com.cn"
     - "www.cmbc.com.cn"
     - "lens.leoao.com"
  
