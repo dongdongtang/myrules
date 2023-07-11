@@ -1,0 +1,17 @@
+name: ReLens-相机APP
+desc: 解锁会员。特别说明：非一次性解锁，每次使用需要开启，先开启规则，再进入软件即可！
+
+http:
+  mitm:
+    - "buy.itunes.apple.com"
+  script:
+    - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
+      name: ReLens
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  ReLens:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/ReLens.js
+    interval: 86400    
