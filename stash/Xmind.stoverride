@@ -1,0 +1,16 @@
+name: XMind思维导图+解锁VIP
+desc: XMind思维导图+解锁VIP
+
+http:
+  mitm:
+    - "www.xmind.cn"
+  script:
+    - match: ^http[s]?:\/\/www.xmind.cn\/_res\/devices
+      name: xmind
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  xmind:
+    url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xmindv.js
+    interval: 86400
