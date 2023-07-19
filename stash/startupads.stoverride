@@ -380,7 +380,10 @@ http:
     - ^https://rs.creditcard.cmbc.com.cn/mmc/img/126f35586ece469aa2daf2e451ba7b4d.jpg - reject-200
     # > 乐刻
     - ^https?:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.lefit\.dubbo\.cms\.api\.front\.AppAdvertisingFrontService\/getAppAdvertisingNew - reject-200
-
+    # > 北京银行
+    - ^https?:\/\/cdnmobibank\.bankofbeijing\.com\.cn\/cdn\/MarketingCloud\/.+\/.+\/99_1\/.+\.jpg - reject-200
+    # > 掌上京彩
+    - ^https?:\/\/cdn-xyk-app\.bankofbeijing\.com\.cn\/cdn\/resource\/image\/advertise - reject-200
 
   script:
     # > 12306
@@ -753,7 +756,8 @@ http:
     - "www.cmbc.com.cn"
     - "lens.leoao.com"
     - "imcs.citicbank.com"
- 
+    - "cdnmobibank.bankofbeijing.com.cn"
+    - "cdn-xyk-app.bankofbeijing.com.cn"
 
 script-providers:
   12306.js:
