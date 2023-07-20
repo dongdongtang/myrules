@@ -1,0 +1,17 @@
+name: 车票票解锁VIP
+desc: 车票票解锁VIP
+
+http:
+  mitm:
+    - "api.revenuecat.com"
+  script:
+    - match: ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$)
+      name: cpp
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  cpp:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/chepiaopiao.js
+    interval: 86400    
