@@ -1,0 +1,17 @@
+name: WaterMinder喝水APP
+desc: WaterMinder喝水APP解锁VIP
+
+http:
+  mitm:
+    - "buy.itunes.apple.com"
+  script:
+    - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
+      name: wm
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  wm:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes/WaterMinder.js
+    interval: 86400    
