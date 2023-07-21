@@ -9,8 +9,8 @@ http:
       name: cpp
       type: request
       require-body: true
-      timeout: 30
-      max-size: 0
+      binary-body-mode: true
+      timeout: 10
 script-providers:
   cpp:
     url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/chepiaopiao.js
