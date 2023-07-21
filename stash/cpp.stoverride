@@ -6,12 +6,21 @@ http:
     - "api.revenuecat.com"
   script:
     - match: ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$)
-      name:cpp
+      name: cpp
       type: request
       require-body: true
-      binary-body-mode: true
-      timeout: 10
+      timeout: 30
+      max-size: 0
 script-providers:
   cpp:
     url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/chepiaopiao.js
-    interval: 86400
+    interval: 86400    
+
+
+
+
+
+
+
+http:
+  mitm:
