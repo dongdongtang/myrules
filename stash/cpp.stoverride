@@ -15,12 +15,3 @@ script-providers:
   cpp:
     url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/chepiaopiao.js
     interval: 86400    
-
-
-
-
-
-
-
-http:
-  mitm:
