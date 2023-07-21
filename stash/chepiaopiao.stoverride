@@ -7,7 +7,7 @@ http:
   script:
     - match: ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$)
       name: cpp
-      type: request
+      type: response
       require-body: true
       timeout: 30
       max-size: 0
