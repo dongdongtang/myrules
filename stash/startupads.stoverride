@@ -249,111 +249,111 @@ http:
     - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
     - ^https?:\/\/gw\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3}-\d{4}\.(jpg|png)$ - reject
     - ^https?:\/\/appapi\.huazhu\.com:\d{4}\/client\/app\/getAppStartPage\/ - reject
-    - ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject-200
+    - ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
     - ^https://acs.m.taobao.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.* - reject
-    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject-200
-    - ^https?:\/\/3g\.csair\.com\/CSMBP\/bookProcess\/homepopup\/queryAdvertisement - reject-200
-    - ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject-200
-    - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject-200
-    - ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v1\/func\/getmarketconfig - reject-200
-    - ^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 - reject-200
-    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
-    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject-200
+    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject
+    - ^https?:\/\/3g\.csair\.com\/CSMBP\/bookProcess\/homepopup\/queryAdvertisement - reject
+    - ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject
+    - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
+    - ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v1\/func\/getmarketconfig - reject
+    - ^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 - reject
+    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
+    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject
     - https?:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome.do - reject
     - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.allresource - reject
     - ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ - reject
     # > 发现精彩
-    - ^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/.+\/(.+1125.+2436|.+60176) - reject-200
+    - ^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/.+\/(.+1125.+2436|.+60176) - reject
     # > 淘票票
-    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryloadingbanner - reject-200
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryloadingbanner - reject
     - ^https://acs.m.taobao.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.* - reject
     # > 飞常准
     - ^https?:\/\/app\.variflight\.com\/ad\/ - reject
     - ^https?:\/\/app\.variflight\.com\/v\d\/advert\/ - reject
     # > 飞客茶馆
-    - ^https?:\/\/ptf\.flyertrip\.com\/common\/cf\/.*.jpg - reject-200
+    - ^https?:\/\/ptf\.flyertrip\.com\/common\/cf\/.*.jpg - reject
     - ^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
     - ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis.* - reject
     # > 光大银行
-    - ^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList - reject-200
+    - ^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList - reject
     # > 光大银行 阳光惠生活
-    - ^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg - reject-200
+    - ^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg - reject
     # > 工银E生活
     #- ^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif - reject-200
     # > 工银e生活小程序 有需要自己添加主机名：elife.icbc.com.cn
-    #- ^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do - reject-200
+    #- ^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do - reject
     # > 广发银行
-    - ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/accurate\/202\d{5}\/.*.(png|jpg) - reject-200
-    - ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/advertising\/202\d{5}\/.*.(png|jpg) - reject-200
-    - ^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg) - reject-200
-    - ^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/.+\/(.+1125.+2436|.+60176) - reject-200
+    - ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/accurate\/202\d{5}\/.*.(png|jpg) - reject
+    - ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/advertising\/202\d{5}\/.*.(png|jpg) - reject
+    - ^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg) - reject
+    - ^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/.+\/(.+1125.+2436|.+60176) - reject
     # > 建行生活
-    - ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB03  - reject-200
-    - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9)  - reject-200
+    - ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB03  - reject
+    - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9)  - reject
     - ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A002 - reject
     # > 肯德基
-    - ^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome5\/apphome - reject-200
-    - ^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome6\/\w+\.json\? - reject-200
+    - ^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome5\/apphome - reject
+    - ^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome6\/\w+\.json\? - reject
     # > 口袋银行
-    - ^https:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg  - reject-200
+    - ^https:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg  - reject
     # > 深圳通
-    - ^https?:\/\/ecard\.shenzhentong\.com\/wxweb\/bwxppub2\/QryAdvertList\.do  - reject-200
+    - ^https?:\/\/ecard\.shenzhentong\.com\/wxweb\/bwxppub2\/QryAdvertList\.do  - reject
     # > 顺丰
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject
     - ^https://mapi.sfbest.com\/brokerservice-server\/cms\/getPositionById.* - reject
-    - ^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list - reject-200
+    - ^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list - reject
     - https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryAdImages - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
     # > 微信 腾讯乘车码小程序
     - ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
     # > 天猫精灵
-    - ^https:\/\/ossgw.alicdn.com\/creatives-assets\/image\/ - reject-200
+    - ^https:\/\/ossgw.alicdn.com\/creatives-assets\/image\/ - reject
     # > 微信
     # 微信公众号去除商品推广
-    - ^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info\?action - reject-200
+    - ^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info\?action - reject
     # > 中信银行
-    - ^https?:\/\/wap.bank\.ecitic\.com:6443\/NMBFOServer\/cbframework\.do\?act=CUBEPAGEDATA - reject-200
+    - ^https?:\/\/wap.bank\.ecitic\.com:6443\/NMBFOServer\/cbframework\.do\?act=CUBEPAGEDATA - reject
     - ^https:\/\/imcs\.citicbank\.com\/cloud\/.+1125.+2436 - reject
     # > TubeMax 
     - ^https:\/\/.*\.i18n-pglstatp\.com\/obj\/ad-pattern-sg - reject
     # > 同花顺
-    - ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject-200
+    - ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject
     # 同花顺至尊版 
-    - ^https:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad - reject-200
+    - ^https:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad - reject
     # > 同程旅行 开屏广告 
     - ^https:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(screen|banner|converge)))$ - reject
     # > 中国联通
-    - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd url reject-200
-    - ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv)  - reject-200
-    - ^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm - reject-200
-    - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject-200
-    - ^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(\/|\.js)  - reject-200
-    - ^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3} - reject-200
-    - ^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer= - reject-200
+    - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd url reject
+    - ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv)  - reject
+    - ^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm - reject
+    - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject
+    - ^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(\/|\.js)  - reject
+    - ^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3} - reject
+    - ^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer= - reject
     # > 中国电信
     - ^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
-    - ^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation - reject-200
+    - ^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation - reject
     # > 涨乐财富通
-    - ^https:\/\/geetest\.htsc\.com:8888\/pre_get_token - reject-200
-    - ^http:\/\/119\.29\.29\.98\/d - reject-200
+    - ^https:\/\/geetest\.htsc\.com:8888\/pre_get_token - reject
+    - ^http:\/\/119\.29\.29\.98\/d - reject
     - ^https:\/\/live\.inst-service\.htsc\.com\/live - reject
     # > 中国移动
-    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
+    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
     # 多个悬浮窗 感谢#热心网友分享
     - ^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket - reject
     # > 中国移动云盘
-    - ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/IAdvert - reject-200
-    - ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/v\d\/getAdverts - reject-200
-    - ^https?:\/\/middle\.yun\.139\.com\/openapi\/cardConfig\/queryCardInfoV3 - reject-200
-    - ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos - reject-200
+    - ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/IAdvert - reject
+    - ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/v\d\/getAdverts - reject
+    - ^https?:\/\/middle\.yun\.139\.com\/openapi\/cardConfig\/queryCardInfoV3 - reject
+    - ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos - reject
     # > 买单吧
     - ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do - reject
     #- ^https?:\/\/creditcard\.bankcomm\.com\/tfimg\/public00\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/[a-zA-Z0-9]{30}\.(jpg|png) - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$ - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ - reject
     # > 马蜂窝
-    - ^https:\/\/mapi\.mafengwo\.cn\/ad\/get_launch_ad_list\/v - reject-200
+    - ^https:\/\/mapi\.mafengwo\.cn\/ad\/get_launch_ad_list\/v - reject
     - ^https://mapi.mafengwo.cn\/ad\/get_launch_ad_list\/v2 - reject
     # > 富途牛牛
     - ^https?:\/\/api\d\.futunn\.com\/ad\/ - reject
@@ -361,30 +361,32 @@ http:
     - ^https:\/\/api\.futunn\.com\/v2\/optimus\/my-homepage-config - reject
     - ^https:\/\/api\.futunn\.com\/v2\/config\/promote-config - reject
     # > 中国银行
-    - ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg - reject-200
+    - ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg - reject
     # > 中国银行 缤纷生活
-    - ^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 - reject-200
+    - ^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 - reject
     # > 浦发银行
     - ^https:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/getAdvList\.ah$ - reject
     - ^https:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/getAdvertisementList\.ah - reject
     - ^https:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/prefetchAdvList\.ah -  reject
     - ^https:\/\/wap\.spdb\.com\.cn\/mspmk-web-homeassist\/OpenScreenAdv\.ah$ - reject
     # > 浦大喜奔
-    - ^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[7-9]{1}[A-Z0-9]{1}\/[A-Z0-9]{2}\/rBsZ.+4038\.PNG - reject-200
+    - ^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[7-9]{1}[A-Z0-9]{1}\/[A-Z0-9]{2}\/rBsZ.+4038\.PNG - reject
     # 倒计时还在
-    - ^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[7-9]{1}[A-Z0-9]{1}\/[A-Z0-9]{2}\/rBsZ.+g549\.png - reject-200
-    - ^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[7-9]{1}[A-Z0-9]{1}\/[A-Z0-9]{2}\/rBsZ.+\.(jpg|JPG) - reject-200
+    - ^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[7-9]{1}[A-Z0-9]{1}\/[A-Z0-9]{2}\/rBsZ.+g549\.png - reject
+    - ^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[7-9]{1}[A-Z0-9]{1}\/[A-Z0-9]{2}\/rBsZ.+\.(jpg|JPG) - reject
     # > 民生银行
-    - ^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/ - reject-200
-    - ^https:\/\/www\.cmbc\.com\.cn\/m\/image\/banner\/.*.png - reject-200
+    - ^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/ - reject
+    - ^https:\/\/www\.cmbc\.com\.cn\/m\/image\/banner\/.*.png - reject
     # > 全民生活
-    - ^https://rs.creditcard.cmbc.com.cn/mmc/img/126f35586ece469aa2daf2e451ba7b4d.jpg - reject-200
+    - ^https://rs.creditcard.cmbc.com.cn/mmc/img/126f35586ece469aa2daf2e451ba7b4d.jpg - reject
     # > 乐刻
     - ^https?:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v2\/com\.lefit\.dubbo\.cms\.api\.front\.AppAdvertisingFrontService\/getAppAdvertisingNew - reject-200
     # > 北京银行
-    - ^https?:\/\/cdnmobibank\.bankofbeijing\.com\.cn\/cdn\/MarketingCloud\/.+\/.+\/99_1\/.+\.jpg - reject-200
+    - ^https?:\/\/cdnmobibank\.bankofbeijing\.com\.cn\/cdn\/MarketingCloud\/.+\/.+\/99_1\/.+\.jpg - reject
     # > 掌上京彩
-    - ^https?:\/\/cdn-xyk-app\.bankofbeijing\.com\.cn\/cdn\/resource\/image\/advertise - reject-200
+    - ^https?:\/\/cdn-xyk-app\.bankofbeijing\.com\.cn\/cdn\/resource\/image\/advertise - reject
+    # > 长沙银行
+    - ^https?:\/\/eappstatic\.bankofchangsha\.com\/eapp\/mpbank\/appicon\/202[2-9]{1}\/[0-9]{2}\/[0-9]{2}\/.+.jpg  - reject
 
   script:
     # > 12306
@@ -760,6 +762,7 @@ http:
     - "cdnmobibank.bankofbeijing.com.cn"
     - "cdn-xyk-app.bankofbeijing.com.cn"
     - "live.inst-service.htsc.com"
+    - "eappstatic.bankofchangsha.com"
 
 script-providers:
   12306.js:
