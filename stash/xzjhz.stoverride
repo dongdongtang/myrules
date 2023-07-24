@@ -3,9 +3,9 @@ desc: 小组件盒子。脚本来自网络大神，由tangdong改写。
 
 http:
   mitm:
-    - "widget-box-api.codefuture.top"
+    - "buy.itunes.apple.com"
   script:
-    - match: ^https:\/\/widget-box-api\.codefuture\.top\/v1\/users\/me
+    - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
       name: xzjhz
       type: response
       require-body: true
@@ -13,5 +13,5 @@ http:
       max-size: 0
 script-providers:
   xzjhz:
-    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/xzjhz.js
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes/xiaozujianhezi.js
     interval: 86400    
