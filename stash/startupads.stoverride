@@ -337,6 +337,7 @@ http:
     # > 涨乐财富通
     - ^https:\/\/geetest\.htsc\.com:8888\/pre_get_token - reject-200
     - ^http:\/\/119\.29\.29\.98\/d - reject-200
+    - ^https:\/\/live\.inst-service\.htsc\.com\/live - reject
     # > 中国移动
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
     # 多个悬浮窗 感谢#热心网友分享
@@ -758,6 +759,7 @@ http:
     - "imcs.citicbank.com"
     - "cdnmobibank.bankofbeijing.com.cn"
     - "cdn-xyk-app.bankofbeijing.com.cn"
+    - "live.inst-service.htsc.com"
 
 script-providers:
   12306.js:
