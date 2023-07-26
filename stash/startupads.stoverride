@@ -780,6 +780,7 @@ http:
     - "cdn-xyk-app.bankofbeijing.com.cn"
     - "live.inst-service.htsc.com"
     - "eappstatic.bankofchangsha.com"
+    - "apimobile.meituan.com"
 
 script-providers:
   12306.js:
