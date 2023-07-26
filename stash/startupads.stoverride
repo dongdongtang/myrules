@@ -150,7 +150,7 @@ http:
     - ^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg - reject
     - ^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) - reject
     - ^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject
-    #----------------------------------------------------------------------
+    #----
     - ^https?:\/\/capi.mwee.cn\/app-api\/V12\/app\/getstartad - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert - reject
     - ^https?://tel.mangaapi.manhuaren.com/(v2/public/getStartUpMessage|v1/public/getStartPageAds) - reject
