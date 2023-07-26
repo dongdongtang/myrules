@@ -125,6 +125,7 @@ http:
     - ^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action - reject
     - ^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
     - ^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
+    # > 美团
     - ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage - reject
     - ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
     - ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
@@ -134,6 +135,22 @@ http:
     - ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\? - reject
     - ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture - reject
     - ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\?ad - reject
+    - ^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+?\.jpg - reject
+    - ^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+?\.jpg\?may_covertWebp - reject
+    - ^https?:\/\/s3plus\.meituan\.net\/.+?\/linglong\/  - reject
+    - ^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002  - reject
+    - ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\?  - reject
+    - ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
+    - ^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? - reject
+    - ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
+    - ^https?:\/\/p\d.meituan.net\/movie\/.*?\?may_covertWebp - reject
+    - ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|mmc|wmbanner)\/ - reject
+    # > 美团外卖
+    - ^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? - reject
+    - ^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg - reject
+    - ^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) - reject
+    - ^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject
+    #----------------------------------------------------------------------
     - ^https?:\/\/capi.mwee.cn\/app-api\/V12\/app\/getstartad - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert - reject
     - ^https?://tel.mangaapi.manhuaren.com/(v2/public/getStartUpMessage|v1/public/getStartPageAds) - reject
