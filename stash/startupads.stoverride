@@ -410,6 +410,8 @@ http:
     - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/tripAds\.json - reject
     # > 携程旅行小程序_热搜词
     - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/gethotsearchrespbysmallprogram - reject
+    # > 彩云天气
+    - ^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\? - reject
 
   script:
     # > 12306
@@ -794,6 +796,7 @@ http:
     - "live.inst-service.htsc.com"
     - "eappstatic.bankofchangsha.com"
     - "apimobile.meituan.com"
+    - "wrapper.cyapi.cn"
 
 script-providers:
   12306.js:
