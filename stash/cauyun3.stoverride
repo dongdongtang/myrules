@@ -1,0 +1,17 @@
+name: 彩云天气解锁(最新测试)
+desc: 彩云天气解锁
+
+http:
+  mitm:
+    - "biz.cyapi.cn"
+  script:
+    - match: ^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user)
+      name: cytq
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  cytq:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
+    interval: 86400    
