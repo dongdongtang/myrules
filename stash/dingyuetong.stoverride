@@ -1,0 +1,17 @@
+name: 订阅通解锁会员
+desc: 订阅通
+
+http:
+  mitm:
+    - "buy.itunes.apple.com"
+  script:
+    - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
+      name: dyt
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  dyt:
+    url: https://raw.githubusercontent.com/Yu9191/Rewrite/main/dingyuetong.js
+    interval: 86400    
