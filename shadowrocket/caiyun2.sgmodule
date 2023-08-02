@@ -1,0 +1,9 @@
+#!name=彩云天气
+#!desc=彩云天气解锁
+#!system=ios
+
+[Script]
+caiyun = type=http-response,pattern=^https:\/\/biz\.(caiyunapp\.com|cyapi\.cn)\/v2\/user\?app_name\=weather, requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Weather/weather.js
+
+[MITM]
+hostname = %APPEND% biz.caiyunapp.com,biz.cyapi.cn
