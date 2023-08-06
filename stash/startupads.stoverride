@@ -412,6 +412,9 @@ http:
     - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/gethotsearchrespbysmallprogram - reject
     # > 彩云天气
     - ^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\? - reject
+    # > 阿里云盘
+    - ^https?:\/\/member\.(aliyundrive|alipan)\.com\/v1\/users\/onboard_list - reject
+    - ^https?:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/backup\/device - reject
 
   script:
     # > 12306
@@ -797,7 +800,11 @@ http:
     - "eappstatic.bankofchangsha.com"
     - "apimobile.meituan.com"
     - "wrapper.cyapi.cn"
+    - "api.alipan.com"
     - "mbmodule-openapi.paas.cmbchina.com"
+    - "member.aliyundrive.com"
+    - "member.alipan.com"
+    - "api.aliyundrive.com"
 
 script-providers:
   12306.js:
