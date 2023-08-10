@@ -415,6 +415,8 @@ http:
     # > 阿里云盘
     - ^https?:\/\/member\.(aliyundrive|alipan)\.com\/v1\/users\/onboard_list - reject
     - ^https?:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/backup\/device - reject
+    # > #航旅纵横 首页悬浮标签
+    - ^http:\/\/home\.umetrip\.com\/gateway\/api\/umetrip\/native - reject
 
   script:
     # > 12306
@@ -805,6 +807,7 @@ http:
     - "member.aliyundrive.com"
     - "member.alipan.com"
     - "api.aliyundrive.com"
+    - "home.umetrip.com"
 
 script-providers:
   12306.js:
