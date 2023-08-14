@@ -12,6 +12,6 @@ http:
       timeout: 30
       max-size: 0
 script-providers:
- reddit:
+  reddit:
     url: https://raw.githubusercontent.com/dongdongtang/myrules/master/stash/reddit.js
-    interval: 86400    
+    interval: 86400
