@@ -1,0 +1,17 @@
+name: Reddit
+desc: 过滤推广, 关 subreddit 的 NSFW 提示.
+
+http:
+  mitm:
+    - "gql.reddit.com"
+  script:
+    - match: ^https?:\/\/gql\.reddit\.com
+      name: reddit
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+ reddit:
+    url: https://raw.githubusercontent.com/dongdongtang/myrules/master/stash/reddit.js
+    interval: 86400    
