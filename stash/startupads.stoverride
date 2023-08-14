@@ -125,7 +125,7 @@ http:
     - ^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action - reject
     - ^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
     - ^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
-    # > 美团
+    # > 美团 
     - ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage - reject
     - ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
     - ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
@@ -145,7 +145,6 @@ http:
     - ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
     - ^https?:\/\/p\d.meituan.net\/movie\/.*?\?may_covertWebp - reject
     - ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|mmc|wmbanner)\/ - reject
-    # > 美团外卖
     - ^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? - reject
     - ^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg - reject
     - ^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) - reject
@@ -298,7 +297,7 @@ http:
     # > 工银E生活
     #- ^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif - reject-200
     # > 工银e生活小程序 有需要自己添加主机名：elife.icbc.com.cn
-    - ^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do - reject
+    #- ^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do - reject
     # > 广发银行& 发现精彩
     - ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/accurate\/202\d{5}\/.*.(png|jpg) - reject
     - ^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/advertising\/202\d{5}\/.*.(png|jpg) - reject
@@ -415,7 +414,7 @@ http:
     # > 阿里云盘
     - ^https?:\/\/member\.(aliyundrive|alipan)\.com\/v1\/users\/onboard_list - reject
     - ^https?:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/backup\/device - reject
-    # > #航旅纵横 首页悬浮标签
+    # > 航旅纵横 首页悬浮标签
     - ^http:\/\/home\.umetrip\.com\/gateway\/api\/umetrip\/native - reject
 
   script:
@@ -764,7 +763,7 @@ http:
     - "ucmp.sf-express.com"
     - "adm.10jqka.com.cn"
     - "stat.10jqka.com.cn"
-    - "elife.icbc.com.cn"
+    #- "elife.icbc.com.cn"
     #- "pv.elife.icbc.com.cn"
     - "ccsp-egmas.sf-express.com"
     - "iobs.pingan.com.cn"
