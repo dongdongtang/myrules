@@ -416,6 +416,12 @@ http:
     - ^https?:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/backup\/device - reject
     # > 航旅纵横 首页悬浮标签
     - ^http:\/\/home\.umetrip\.com\/gateway\/api\/umetrip\/native - reject
+    # > 兴业银行 （首页会有一小部分图片误杀）
+    - ^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.jpg\?ver=20221[1-2]{1} - reject
+    - ^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.jpg\?ver=20230[1-9]{1} - reject
+    # > 兴业生活
+    - ^https?:\/\/file\.cibfintech\.com\/file\/M0[1-9]{1}\/*\/*\/.*.zip - reject
+
 
   script:
     # > 12306
@@ -807,6 +813,9 @@ http:
     - "member.alipan.com"
     - "api.aliyundrive.com"
     - "home.umetrip.com"
+    - "images.cib.com.cn"
+    - "file.cibfintech.com"
+
 
 script-providers:
   12306.js:
