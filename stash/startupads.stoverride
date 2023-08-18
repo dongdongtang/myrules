@@ -423,7 +423,9 @@ http:
     - ^https?:\/\/file\.cibfintech\.com\/file\/M0[1-9]{1}\/*\/*\/.*.zip - reject
     # > MIX
     - ^https:\/\/dispatcher\.camera360\.com\/api\/v1\/list$ - reject
-
+    # > 农业银行 #开屏广告
+    - ^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/(9ce31|1bf6e) - reject
+    - ^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/6bd18.*? - reject
 
   script:
     # > 12306
@@ -818,6 +820,7 @@ http:
     - "images.cib.com.cn"
     - "file.cibfintech.com"
     - "dispatcher.camera360.com"
+    - "enjoy.cdn-static.abchina.com"
 
 
 script-providers:
