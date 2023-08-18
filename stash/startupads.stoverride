@@ -421,6 +421,8 @@ http:
     - ^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.jpg\?ver=20230[1-9]{1} - reject
     # > 兴业生活
     - ^https?:\/\/file\.cibfintech\.com\/file\/M0[1-9]{1}\/*\/*\/.*.zip - reject
+    # > MIX
+    - ^https:\/\/dispatcher\.camera360\.com\/api\/v1\/list$ - reject
 
 
   script:
@@ -815,6 +817,7 @@ http:
     - "home.umetrip.com"
     - "images.cib.com.cn"
     - "file.cibfintech.com"
+    - "dispatcher.camera360.com"
 
 
 script-providers:
