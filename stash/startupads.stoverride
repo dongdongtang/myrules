@@ -426,6 +426,8 @@ http:
     # > 农业银行 #开屏广告
     - ^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/(9ce31|1bf6e) - reject
     - ^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/6bd18.*? - reject
+    # > 飞猪旅行 #开屏广告 #不完整还有其他广告没抓完
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryloadingbanner - reject
 
   script:
     # > 12306
