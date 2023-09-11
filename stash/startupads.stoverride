@@ -428,6 +428,9 @@ http:
     - ^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/6bd18.*? - reject
     # > 飞猪旅行 #开屏广告 #不完整还有其他广告没抓完
     - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryloadingbanner - reject
+    # > 豆瓣
+    - ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
+    - ^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* - reject
 
   script:
     # > 12306
