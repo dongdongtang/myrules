@@ -290,6 +290,9 @@ http:
     - ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis.* - reject
     # > 招商银行
     - ^https:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic - reject
+    # > 招行掌上生活 (需卸载重装)
+    - ^https?:\/\/az1mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec - reject
+    - ^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec  - reject
     # > 光大银行
     - ^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList - reject
     # > 光大银行 阳光惠生活
@@ -826,7 +829,8 @@ http:
     - "file.cibfintech.com"
     - "dispatcher.camera360.com"
     - "enjoy.cdn-static.abchina.com"
-
+    - "az1mbasecc.bas.cmbchina.com"
+    - "intellicc.bas.cmbchina.com"
 
 script-providers:
   12306.js:
