@@ -341,8 +341,6 @@ http:
     - https://new-app-api.ylyk.com/v1/user/myinfo/adviser - reject
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
     - ^https?:\/\/app\.yinxiang\.com\/ads\/ - reject
-    - ^https?:\/\/a\.qiumibao\.com\/activities\/config\.php$ - reject
-    - ^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code= - reject
     - ^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject
     - ^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js - reject
     - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
@@ -652,7 +650,6 @@ http:
     - "mi.gdt.qq.com"
     - "emdcadvertise.eastmoney.com"
     - "adm.10jqka.com"
-    - "a.qiumibao.com"
     - "api.tipsoon.com"
     - "b.appsimg.com"
     - "hcz-member.pingan.com"
