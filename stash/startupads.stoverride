@@ -221,15 +221,15 @@ http:
     - http://mangaapi.manhuaren.com/v2/public/getShelfActivity - reject
     - ^https?://mangaapi.manhuaren.com/(v2/public/getStartUpMessage|v1/public/getStartPageAds) - reject
     - http://mangaapi.manhuaren.com/v2/ad/getMultiAdsStrategy - reject
-    # >埋堆堆
+    # > 埋堆堆
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert - reject
     - ^https?:\/\/api\.mddcloud\.com\.cn\/api\/ad\/getClassAd\.action - reject
     - ^https?:\/\/api\.mddcloud\.com\.cn\/api\/advert\/getHomepage\.action - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ - reject
-    # >美味不用等
+    # > 美味不用等
     #- ^https?:\/\/capi.mwee.cn\/app-api\/V12\/app\/getstartad - reject
     - ^https?:\/\/capi\.mwee\.cn\/app-api\/V\d{2}\/app\/(ad|getstartad) - reject
-    # >每日优鲜
+    # > 每日优鲜
     - ^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
     - ^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
 
@@ -350,7 +350,6 @@ http:
     - ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
 
     # > 淘票票
-    # 开屏广告
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.(queryadvertise|queryloadingbanner)\/ - reject
     - ^https://acs.m.taobao.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.* - reject
     - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryloadingbanner - reject
