@@ -231,6 +231,12 @@ http:
     # > 每日优鲜
     - ^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
     - ^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
+    # > 印象笔记
+    - ^https?:\/\/app\.yinxiang\.com\/ads\/ - reject
+    # > 作业帮
+    - ^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject
+    # > 希尔顿 荣誉客会
+    - ^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd - reject
 
     # > 未知。。
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/getAdvertInfo - reject
@@ -336,12 +342,8 @@ http:
     - ^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v3\/advert\.position=[^2]+ - reject
     - ^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/\w+\.json - reject
     - ^https?:\/\/venus\.yhd\.com\/memhome\/launchConfig - reject
-    - ^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd - reject
-    - ^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage - reject
     - https://new-app-api.ylyk.com/v1/user/myinfo/adviser - reject
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
-    - ^https?:\/\/app\.yinxiang\.com\/ads\/ - reject
-    - ^https?:\/\/syh\.zybang\.com\/com\/adx\/ - reject
     - ^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js - reject
     - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
     - ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
@@ -733,7 +735,6 @@ http:
     - "*.laichon.com"
     - "app.ap.d3yuiw4.com"
     - "www.i3zh.com"
-    - "api.yikaobang.com.cn"
     - "api-ad-product.huxiu.com"
     - "jad-api.jin10.com"
     - "mob.mddcloud.com.cn"
@@ -933,6 +934,8 @@ http:
     - "richmanapi.jxedt.com"
     - "richmanmain.jxedt.com"
     - "adapi.izuiyou.com"
+    - "wcprd.hilton.com.cn"
+
 
 script-providers:
   12306.js:
