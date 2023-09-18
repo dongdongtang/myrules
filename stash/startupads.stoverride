@@ -2,20 +2,53 @@ name: 开屏广告去除及部分 app 优化
 desc: 覆盖了绝大数的 app 开屏广告
 http:
   rewrite:
+    # > 58同城
     - ^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/ - reject
     - ^https?:\/\/app\.58\.com\/api\/home\/advertising\/ - reject
     - ^https?:\/\/app\.58\.com\/api\/home\/appadv\/ - reject
+    - ^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv - reject
+    - ^https?:\/\/app\.58\.com\/api\/log\/ - reject
+    # > 未知。。
     - ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/getAdvertInfo - reject
+    # > 爱回收
     - ^https?:\/\/gw.aihuishou.com\/app-portal\/home\/getadvertisement - reject
+    # > 爱范儿
     - ^https?:\/\/sso.ifanr.com\/jiong\/IOS\/appso\/splash\/ - reject
+    # > 爱奇艺
     - ^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&dis_dz= - reject
     - ^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&z=\w - reject
     - ^https?:\/\/.+\/videos\/other\/ - reject
     - ^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch - reject
+    - ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
+    - ^https?:\/\/intl\.iqiyi\.com\/ad_external\/ -  reject
+    - ^https?:\/\/intl\.iqiyi\.com\/video\/advertise - reject
+    - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do  - reject
+    - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show  - reject
+    - ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo  - reject-200
+    - ^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch  - reject
+    - ^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video\/a2\/af\/.+\.png  - reject
+    - ^http:\/\/msga/.cupid/.iqiyi/.com\/scp2\.gif  - reject
+    - https?:\/\/ssports\.iqiyi\.com/app\/  - reject
+    - https?:\/\/ssports\.iqiyi\.com/json\/shop\/shopInfo  - reject
+    - https?:\/\/.+\.iqiyi\.com\/videos\/other\/20$  - reject
+    - https?:\/\/static\.iqiyi\.com\/js\/common\/.+\.js  - reject
+    - https?:\/\/t7z\.cupid\.iqiyi\.com\/show  - reject
+    - ^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_  - reject
+    - ^http:\/\/.+\.iqiyipic\.com\/image\/.+\/ad\/.+\.jpg  - reject
+    - https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000  - reject
+    # > 阿里
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ - reject
+    - ^http?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/version - reject
+    - ^http?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/advert\?position=[^2]+ - reject
+    - ^http?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/top_notice\? - reject
+    # > 。。。
     - ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.(jpg|mp4) - reject
+    # > 百视TV
     - ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertisingV2 - reject
     - ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/c\/home\/searchMark - reject
+    #（倒计时还在）
+    - ^https?:\/\/bp-image\.bestv\.com\.cn\/[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{25}\.jpg - reject
+    # > 百度
     - ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo - reject
     - ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
     - ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad - reject
@@ -23,8 +56,9 @@ http:
     - ^https?:\/\/pan\.baidu\.com\/act\/v\d\/welfare\/list - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad - reject
     - ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject
+    # > 。。。
     - ^https?:\/\/js-ad\.ayximgs\.com\.ad-universe-cdn\.hzhcbkj\.cn\/xgapp\.php\/v2\/top_notice - reject
-    - ^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg - reject
+    # > 车来了
     - ^https?:\/\/cdn\.\w{3}\.chelaileapp\.cn\/(api\/)?adpub - reject
     - ^https?:\/\/api.chelaile.net.cn\/adpub\/ - reject
     - ^https?:\/\/api.chelaile.net.cn\/goocity\/advert\/ - reject
@@ -32,30 +66,45 @@ http:
     - ^https?:\/\/atrace.chelaile.net.cn\/exhibit\?&adv_image - reject
     - ^https?:\/\/pic1.chelaile.net.cn\/adv\/ - reject
     - ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig - reject
+    # > 东方财富
     - ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService\/v\d - reject
+    - ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService\/v2 - reject
+    # > 当当
     - ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init - reject
-    - ^http?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/version - reject
-    - ^http?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/advert\?position=[^2]+ - reject
-    - ^http?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/top_notice\? - reject
-    - ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
-    - ^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* - reject
-    - ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
+    # > 滴答
+    - ^https?:\/\/capis(-\d)?\.didapinche\.com\/ad\/ - reject
+    - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/publish\/api\/upgrade - reject
+    - ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
+    # > 嘀嗒出行 #小程序净化 感谢#豆豆分享
+    - ^https:\/\/capis(-\d)?\.didapinche\.com\/adbase - reject
+    - ^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core - reject
+    - ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
     - ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? - reject
+    # > 小桔科技
     - https?://res\.xiaojukeji\.com\/resapi\/activity\/mget - reject
     - https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) - reject
-    - ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd - reject
-    - ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
-    - ^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement\/ - reject
-    - ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson - reject
+    - ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject
+    # > 当当阅读
     - ^https?:\/\/e.dangdang.com\/media\/api.+\?action=getDeviceStartPage - reject
     - ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init - reject
+    - ^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init - reject
+    - ^https?:\/\/e\.dangdang\.com\/.+?getDeviceStartPage - reject
+    # > 斗鱼
+    - ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd - reject
+    - ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
+    # > 。。。
+    - ^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement\/ - reject
+    - ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson - reject
+    # > 电视家
     - ^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/ - reject
     - ^https?:\/\/cdn\.dianshihome\.com\/static\/ad\/ - reject
+    # > 饿了么
     - ^https?:\/\/elemecdn.com\/.+\/sitemap - reject
     - ^https?:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} - reject
     - ^https?:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} - reject
     - ^https?:\/\/fuss10.elemecdn.com\/.+.mp4 - reject
     - ^https?:\/\/www1.elecfans.com\/www\/delivery\/ - reject
+
     - ^https?:\/\/gw\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3}-\d{4}\.(jpg|png)$ - reject
     - ^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis - reject
     - ^https:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
@@ -82,6 +131,7 @@ http:
     - ^https?:\/\/api\.touker\.com\/v2\/IAdvertisementAPI\.queryStartAdvertisement - reject
     - ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml - reject
     - ^https?:\/\/api\.tipsoon\.com\/api\/v\d\/top\/ad - reject
+
     - https://jdread-api.jd.com/jdread/api/channel/module/opens - reject
     - https://jdread-api.jd.com/jdread/api/popup - reject
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start - reject
@@ -99,6 +149,7 @@ http:
     - ^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ - reject
     - ^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/adBubble\/.+ - reject
     - ^https?:\/\/api.kkmh.com\/v\d\/(ad|advertisement)\/ - reject
+    # > Keep
     - ^https?:\/\/api\.gotokeep\.com\/kprime\/v\d\/popups\/primeGuide - reject
     - ^https?:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v\d\/ad - reject
     - https://api.gotokeep.com/cauchy/user/notice/growth/guide - reject
@@ -110,6 +161,7 @@ http:
     - ^https?:\/\/api\.gotokeep\.com\/ads\/v\d\/ads\/preload - reject
     - ^https?:\/\/api\.gotokeep\.com\/training\/box\/config - reject
     - ^https?:\/\/api\.gotokeep\.com\/anno\/v\d\/upgrade\/check - reject
+
     - ^https?://api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk - reject
     - ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch - reject
     - ^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement - reject
@@ -435,6 +487,7 @@ http:
     - ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
     - ^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* - reject
 
+
   script:
     # > 12306
     - match: ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
@@ -536,6 +589,13 @@ http:
     # > 携程旅行小程序_信息流
     - match: ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/getWaterflowInfo
       name: xc.js
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+    # > 爱奇艺
+    - match: ^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer\?
+      name: aqy.js
       type: response
       require-body: true
       timeout: 30
@@ -831,6 +891,27 @@ http:
     - "enjoy.cdn-static.abchina.com"
     - "az1mbasecc.bas.cmbchina.com"
     - "intellicc.bas.cmbchina.com"
+    - "iface2.iqiyi.com"
+    - "iface.iqiyi.com"
+    - "intl.iqiyi.com"
+    - "act.vip.iqiyi.com"
+    - "static-s.iqiyi.com"
+    - "msga.cupid.iqiyi.com"
+    - "ssports.iqiyi.com"
+    - ".+.iqiyi.com"
+    - "static.iqiyi.com"
+    - "t7z.cupid.iqiyi.com"
+    - "ud.iqiyipic.com"
+    - ".+.iqiyipic.com"
+    - "bp-image.bestv.com"
+    - "www.didapinche.com"
+    - "conf.diditaxi.com"
+    - "adx-cn.anythinktech.com"
+    - "bp-image.bestv.com"
+    - "bp-image.bestv.com"
+    - "bp-image.bestv.com"
+    - "bp-image.bestv.com"
+    - "bp-image.bestv.com"
 
 script-providers:
   12306.js:
@@ -872,3 +953,6 @@ script-providers:
   xc.js:
     url: https://github.com/ddgksf2013/Scripts/raw/master/ctripAds.js
     interval: 86400    
+  aqy.js:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+    interval: 86400   
