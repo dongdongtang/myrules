@@ -208,7 +208,7 @@ http:
     - ^https?:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo - reject
     # > 金十数据 开屏广告和应用内弹窗
     - ^https?:\/\/jad-api\.jin10\.com\/ad - reject
-    # > 去哪儿     # 开屏广告
+    # > 去哪儿 
     - ^https:\/\/qde\.qunar\.com\/preload - reject
     - ^https:\/\/homefront\.qunar\.com\/front\/splash\/ad - reject
     - ^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd - reject
