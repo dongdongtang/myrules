@@ -934,7 +934,7 @@ http:
     - "richmanmain.jxedt.com"
     - "adapi.izuiyou.com"
     - "wcprd.hilton.com.cn"
-
+    - "static1.keepcdn.com"
 
 script-providers:
   12306.js:
