@@ -229,6 +229,7 @@ http:
     - ^https?:\/\/api\.gotokeep\.com\/ads\/v\d\/ads\/preload - reject
     - ^https?:\/\/api\.gotokeep\.com\/training\/box\/config - reject
     - ^https?:\/\/api\.gotokeep\.com\/anno\/v\d\/upgrade\/check - reject
+    - ^https?:\/\/static1\.keepcdn\.com\/ark_optimus\/202\d\/*\/*\/.*.(png|jpg)
     # > 美团 
     - ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage - reject
     - ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
