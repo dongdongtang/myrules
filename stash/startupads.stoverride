@@ -510,6 +510,8 @@ http:
     # > 豆瓣
     - ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
     - ^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* - reject
+    # > 农业银行
+    - ^https:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/bdfb4 - reject
 
   script:
     # > 12306
@@ -935,6 +937,7 @@ http:
     - "adapi.izuiyou.com"
     - "wcprd.hilton.com.cn"
     - "static1.keepcdn.com"
+    - "midc.cdn-static.abchina.com.cn"
 
 script-providers:
   12306.js:
