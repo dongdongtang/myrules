@@ -367,7 +367,7 @@ http:
     - ^https?:\/\/az1mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec - reject
     - ^https?:\/\/intellicc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec  - reject
     # > 光大银行
-    - ^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList - reject
+    #- ^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList - reject
     # > 光大银行 阳光惠生活
     - ^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg - reject
     # > 工银E生活
@@ -868,7 +868,7 @@ http:
     - "ccsp-egmas.sf-express.com"
     - "iobs.pingan.com.cn"
     - "shopic.sf-express.com"
-    - "mobile.cebbank.com"
+    #- "mobile.cebbank.com"
     - "res.kfc.com.cn"
     #- "v.icbc.com.cn"
     - "ecard.shenzhentong.com"
