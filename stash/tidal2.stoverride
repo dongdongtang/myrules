@@ -1,0 +1,20 @@
+name: tidal2
+desc: tidal解锁音质
+
+
+http:
+  mitm:
+    - "api.tidal.com"
+    
+  script:
+    - match: ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+
+      name: tidal2
+      type: request
+      require-body: true
+      timeout: 60
+      max-size: 3145728
+
+script-providers:
+  tidal2:
+    url: https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/TIDAL/tidal.js
+    interval: 0
