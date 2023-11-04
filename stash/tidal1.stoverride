@@ -1,0 +1,17 @@
+name: tidal1
+desc: tidal解锁个人中心
+
+http:
+  mitm:
+    - "api.tidal.com"
+  script:
+    - match: ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+
+      name: tidal1
+      type: response
+      require-body: true
+      timeout: 60
+      max-size: 3145728
+script-providers:
+  tidal1:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
+    interval: 0
