@@ -151,6 +151,7 @@ http:
     - ^https:\/\/gw.alicdn.com\/tfs\/.+\d{3,4}-\d{4} - reject
     - ^http?:\/\/g\.alicdn\.com\/living\/mesh-std-spec - reject
     - ^https?:\/\/gw\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3}-\d{4}\.(jpg|png)$ - reject
+    - ^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info  - reject
     # > 飞猪 + 阿里巴巴
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) - reject
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/1\.0\?type=originaljson  - reject
@@ -938,6 +939,8 @@ http:
     - "wcprd.hilton.com.cn"
     - "static1.keepcdn.com"
     - "midc.cdn-static.abchina.com.cn"
+    - "member.alipan.com"
+
 
 script-providers:
   12306.js:
