@@ -399,6 +399,11 @@ http:
     - ^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list - reject
     - https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryAdImages - reject
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject
+      #小程序去广告
+    - ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/integralPlanet\/getCxAdvertiseList - reject
+    - ^https:\/\/ucmp-static\.sf-express\.com\/proxy\/wxbase\/wxTicket\/wxLiveStreamInfo\?pageNo - reject
+    - ^https:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query - reject
+    - ^https:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/member(Goods\/pointMallService\/goodsList|Manage\/memberEquity\/queryRecommendEquity|ActLengthy\/fullGiveActivityService\/fullGiveInfo) - reject
     # > 微信 腾讯乘车码小程序
     - ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
     # > 天猫精灵
@@ -862,6 +867,8 @@ http:
     - "m.ctrip.com"
     - "mbd.baidu.com"
     - "ucmp.sf-express.com"
+    - "mcs-mimp-web.sf-express.com"
+    - "ucmp-static.sf-express.com"
     - "adm.10jqka.com.cn"
     - "stat.10jqka.com.cn"
     - "elife.icbc.com.cn"
