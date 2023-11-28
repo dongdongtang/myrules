@@ -1,0 +1,17 @@
+name: Nicegram 1.4.7
+desc: Nicegram 解锁VIP
+
+http:
+  mitm:
+    - "nicegram.cloud"
+  script:
+    - match: https://nicegram.cloud/api/v6/user/info
+      name: ng
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+script-providers:
+  ng:
+    url: https://raw.githubusercontent.com/Yu9191/Rewrite/main/Nicegram.js
+    interval: 86400    
