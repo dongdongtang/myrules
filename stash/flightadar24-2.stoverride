@@ -5,7 +5,7 @@ http:
   mitm:
     - "mobile.flightradar24.com"
   script:
-    - match: ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9})
+    - match: ^https://mobile.flightradar24.com/mobile/(user-session|subscribe)
       name: flightradar24
       type: response
       require-body: true
@@ -13,7 +13,7 @@ http:
       max-size: 0
 script-providers:
   flightradar24:
-    url: https://github.com/ddgksf2013/dev/raw/main/flightradar24.js
+    url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/scripts/Flightradar24.js
     interval: 86400    
 
 
