@@ -13,5 +13,5 @@ http:
       max-size: 0
 script-providers:
   Picsew:
-    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
+    url: https://gist.githubusercontent.com/ddgksf2013/9e0f6c7341beea09a31aa309d9d7f502/raw/buyitunes.js
     interval: 86400    
