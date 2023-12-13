@@ -18,6 +18,10 @@ http:
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul - reject
     # Wiki(618晒物活动推广，将来可能不是广告)
     - ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul - reject
+    # 主页面领红包广告 
+    - ^https:\/\/app-api\.smzdm\.com\/util\/update - reject
+    # 我的页面 服务卡片 
+    - ^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list\?basic_v=0&f=iphone&limit=20&page=1&sign= - reject
   
   script:
     # 开屏去广告
