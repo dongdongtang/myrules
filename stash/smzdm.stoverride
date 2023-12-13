@@ -10,6 +10,7 @@ http:
     - "baike-api.smzdm.com"
     - "s-api.smzdm.com"
     - "zhiyou.m.smzdm.com"
+    - "user-api.smzdm.com"
     
   url-rewrite:
     # 好价详情页去广告
