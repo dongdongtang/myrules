@@ -1,0 +1,16 @@
+name: tradeview
+desc: tradeview
+
+http:
+  mitm:
+    - "cn.tradingview.com"
+  script:
+    - match: https://cn.tradingview.com/api/v1/user/profile/me/
+      name: tradeview
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  tradeview:
+    url: https://raw.githubusercontent.com/Yu9191/Rewrite/main/TradingView.js
+    interval: 86400
