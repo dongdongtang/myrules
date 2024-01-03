@@ -5,7 +5,7 @@ http:
   mitm:
     - "mobile.flightradar24.com"
   script:
-    - match: ^https://mobile.flightradar24.com/mobile/(user-session|subscribe)
+    - match: ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9})
       name: flightradar24
       type: response
       require-body: true
@@ -13,5 +13,5 @@ http:
       max-size: 0
 script-providers:
   flightradar24:
-    url: https://raw.githubusercontent.com/Yu9191/Rewrite/main/Flightradar24.js
+    url: https://github.com/ddgksf2013/dev/raw/main/flightradar24.js
     interval: 86400   
