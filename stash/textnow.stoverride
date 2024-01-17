@@ -13,5 +13,5 @@ http:
       max-size: 0
 script-providers:
   textnow:
-    url: https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/textnow.js
+    url: https://raw.githubusercontent.com/dongdongtang/myrules/master/script/Textnow.js
     interval: 86400    
