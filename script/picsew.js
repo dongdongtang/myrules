@@ -1,8 +1,8 @@
 /*
 #圈x
-https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/picsew.js
+https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/dongdongtang/myrules/master/script/picsew.js
 #Loon
-http-response https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/picsew.js, requires-body=true, timeout=10, tag=picsew专业版
+http-response https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/dongdongtang/myrules/master/script/picsew.js, requires-body=true, timeout=10, tag=picsew专业版
 #[mitm]
 hostname=buy.itunes.apple.com
 */
