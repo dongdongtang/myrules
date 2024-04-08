@@ -1,0 +1,12 @@
+# NAME: clubsim
+# AUTHOR: Louis
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-04-08 12:30:51
+# HOST-SUFFIX: 6
+# TOTAL: 6
+HOST-SUFFIX,csl.prod.ondemandconnectivity.com,clubsim
+HOST-SUFFIX,hhk.prod.ondemandconnectivity.com, clubsim
+HOST-SUFFIX,epdg.epc.mnc000.mcc454.pub.3gppnetwork.org, clubsim
+HOST-SUFFIX,ss.epdg.epc.mnc000.mcc454.pub.3gppnetwork.org, clubsim
+HOST-SUFFIX,ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org, clubsim
+HOST-SUFFIX,gspe1-ssl.ls.apple.com, clubsim
