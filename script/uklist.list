@@ -1,0 +1,10 @@
+HOST-SUFFIX,uphold.com,uklist
+HOST-KEYWORD,uphold,uklist
+HOST-SUFFIX,trading212.com,uklist
+HOST-KEYWORD,trading212,uklist
+HOST-SUFFIX,monzo.com,uklist
+HOST-SUFFIX,monzo-alt.net,uklist
+HOST-KEYWORD,monzo,uklist
+HOST,internal-api.monzo.com,uklist
+HOST,api.sta.monzo-alt.net,uklist
+#GEOIP,UK
