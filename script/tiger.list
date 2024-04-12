@@ -2,18 +2,18 @@
 # AUTHOR: Louis
 # HOST-SUFFIX: 12
 # TOTAL: 15
-HOST-SUFFIX,tradeup.com,tiger
-HOST-SUFFIX,skytigris.cn, tiger
-HOST-SUFFIX,c1.itigergrowtha.com, tiger
-HOST,www.atigrzen.com, tiger
-HOST-SUFFIX,apihub.skytigris.cn, tiger
-HOST-SUFFIX,trade.tigerbrokers.com.sg, tiger
-HOST-KEYWORD,tiger,tiger
-HOST-KEYWORD,skytigris,tiger
-HOST-SUFFIX,static.tigerbbs.com, tiger
-HOST-SUFFIX,stock-news.laohu8.com, tiger
-HOST-SUFFIX,tigerfintech.com, tiger
-HOST-SUFFIX,ttm.financial, tiger
-HOST-SUFFIX,tigerbrokers.com.sg, tiger
-HOST-SUFFIX,laohu8.com, tiger
-HOST-SUFFIX,tigerbbs.com, tiger
+HOST-SUFFIX,tradeup.com,狮城节点
+HOST-SUFFIX,skytigris.cn, 狮城节点
+HOST-SUFFIX,c1.itigergrowtha.com, 狮城节点
+HOST,www.atigrzen.com, 狮城节点
+HOST-SUFFIX,apihub.skytigris.cn, 狮城节点
+HOST-SUFFIX,trade.tigerbrokers.com.sg, 狮城节点
+HOST-KEYWORD,tiger,狮城节点
+HOST-KEYWORD,skytigris,狮城节点
+HOST-SUFFIX,static.tigerbbs.com, 狮城节点
+HOST-SUFFIX,stock-news.laohu8.com, 狮城节点
+HOST-SUFFIX,tigerfintech.com, 狮城节点
+HOST-SUFFIX,ttm.financial, 狮城节点
+HOST-SUFFIX,tigerbrokers.com.sg, 狮城节点
+HOST-SUFFIX,laohu8.com, 狮城节点
+HOST-SUFFIX,tigerbbs.com, 狮城节点
