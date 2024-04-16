@@ -1,8 +1,9 @@
 # NAME: hkbank
 # AUTHOR: Louis
-#chiyu bank
+#chiyubank ncbbank
 HOST-SUFFIX,bochk.com,香港节点
 HOST-SUFFIX,bochk01.etnet.com.hk, 香港节点
 HOST-SUFFIX,bochk02.etnet.com.hk, 香港节点
+HOST-SUFFIX,ncb.com.hk, 香港节点
 HOST-KEYWORD,bochk,香港节点
 HOST,www.chiyubank.com,香港节点
