@@ -7,4 +7,5 @@ HOST-SUFFIX,monzo-alt.net,uklist
 HOST-KEYWORD,monzo,uklist
 HOST,internal-api.monzo.com,uklist
 HOST,api.sta.monzo-alt.net,uklist
+HOST-SUFFIX,vodafone.co.uk,uklist
 #GEOIP,UK
