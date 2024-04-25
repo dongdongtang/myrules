@@ -1,10 +1,14 @@
-# NAME: hkbank
+# NAME: hk bank
 # AUTHOR: Louis
 #chiyubank ncb bochk ocbchk
-HOST-SUFFIX,bochk.com,香港节点
-HOST-SUFFIX,bochk01.etnet.com.hk, 香港节点
-HOST-SUFFIX,bochk02.etnet.com.hk, 香港节点
-HOST-SUFFIX,ncb.com.hk, 香港节点
-HOST-KEYWORD,bochk,香港节点
-HOST,www.chiyubank.com,香港节点
-HOST-SUFFIX,ocbc.com.hk,香港节点
+HOST-SUFFIX,bochk.com,香港专用
+HOST-SUFFIX,bochk01.etnet.com.hk, 香港专用
+HOST-SUFFIX,bochk02.etnet.com.hk, 香港专用
+HOST-SUFFIX,ncb.com.hk, 香港专用
+HOST-KEYWORD,bochk,香港专用
+HOST,www.chiyubank.com,香港专用
+HOST-SUFFIX,ocbc.com.hk,香港专用
+HOST-KEYWORD,hangseng,香港专用
+HOST-SUFFIX,hsbc.com.hk, 香港专用
+HOST-KEYWORD,hsbcdigital,香港专用
+HOST-KEYWORD,hsbc,香港专用
