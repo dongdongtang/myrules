@@ -10,3 +10,4 @@ HOST-SUFFIX,epdg.epc.mnc000.mcc454.pub.3gppnetwork.org, clubsim
 HOST-SUFFIX,ss.epdg.epc.mnc000.mcc454.pub.3gppnetwork.org, clubsim
 HOST-SUFFIX,ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org, clubsim
 HOST-SUFFIX,gspe1-ssl.ls.apple.com, clubsim
+HOST-KEYWORD,clubsim,clubsim
