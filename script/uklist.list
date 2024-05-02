@@ -1,6 +1,7 @@
 #GEOIP,UK
 HOST-SUFFIX,uphold.com,英国专用
 HOST-KEYWORD,uphold,英国专用
+HOST-SUFFIX,riskified.com,英国专用
 HOST-SUFFIX,trading212.com,英国专用
 HOST-KEYWORD,trading212,英国专用
 HOST-SUFFIX,monzo.com,英国专用
