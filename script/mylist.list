@@ -3,6 +3,7 @@
 #gopayz
 HOST-SUFFIX,maxmoney.com,大马节点
 HOST-KEYWORD,gobiz,大马节点
+HOST-KEYWORD,gopayz,大马节点
 
 #tng
 HOST-SUFFIX,tngd.alipayplus.com,大马节点
