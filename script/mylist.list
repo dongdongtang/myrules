@@ -1,0 +1,16 @@
+#GEOIP,MY Malaysia
+
+#gopayz
+HOST-SUFFIX,maxmoney.com,大马节点
+HOST-KEYWORD,gobiz,大马节点
+
+#tng
+HOST-SUFFIX,tngd.alipayplus.com,大马节点
+HOST-KEYWORD,tngdigital,大马节点
+HOST-KEYWORD,tngdigitalhelp,大马节点
+HOST-KEYWORD,tngd,大马节点
+HOST-KEYWORD,alipayplus,大马节点
+
+#bigpay
+HOST-KEYWORD,bigpayme,大马节点
+HOST-KEYWORD,bigpay,大马节点
