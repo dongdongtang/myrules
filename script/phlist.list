@@ -9,14 +9,24 @@ HOST-KEYWORD,mayabank,菲律宾节点
 HOST,www.maya.ph,菲律宾节点
 HOST-SUFFIX,voyager.ph,菲律宾节点
 HOST-KEYWORD,voyager,菲律宾节点
+HOST-SUFFIX,cryptosrvc.com,菲律宾节点
 
 #Smart
 HOST-SUFFIX,smart.com.ph,菲律宾节点
+HOST-SUFFIX,*.smart.com.ph,菲律宾节点
+HOST-SUFFIX,.smart.com.ph,菲律宾节点
+HOST-SUFFIX,app1.smart.com.ph,菲律宾节点
 
 #Globe
 HOST-SUFFIX,globe.com.ph,菲律宾节点
 HOST-KEYWORD,globe,菲律宾节点
+HOST-SUFFIX,checkoutshopper-live.adyen.com,菲律宾节点
+HOST-SUFFIX,www.globe.com.ph,菲律宾节点
+HOST-SUFFIX,live-cortex-gw.al.ep.cloudops.globe.com.ph,菲律宾节点
 
-
-
-
+# Gcash
+HOST,gcash-api.pulseid.com,菲律宾节点
+HOST-SUFFIX,gcash.com,菲律宾节点
+HOST-SUFFIX,.gcash.com,菲律宾节点
+HOST-SUFFIX,www.gcash.com,菲律宾节点
+HOST-KEYWORD,gcash,菲律宾节点
