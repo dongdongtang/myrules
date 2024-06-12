@@ -13,7 +13,6 @@ HOST-SUFFIX,cryptosrvc.com,菲律宾节点
 
 #Smart
 HOST-SUFFIX,smart.com.ph,菲律宾节点
-HOST-SUFFIX,*.smart.com.ph,菲律宾节点
 HOST-SUFFIX,.smart.com.ph,菲律宾节点
 HOST-SUFFIX,app1.smart.com.ph,菲律宾节点
 
