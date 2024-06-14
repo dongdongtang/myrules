@@ -1,6 +1,6 @@
 # NAME: hk bank
 # AUTHOR: Louis
-#chiyubank ncb bochk ocbchk
+#香港银行分流
 
 HOST-SUFFIX,bochk.com,香港节点
 HOST-SUFFIX,bochk01.etnet.com.hk, 香港节点
