@@ -43,3 +43,6 @@ HOST,api.adapty.io,英国专用
 HOST-SUFFIX,api.novaapp.ai,英国专用
 HOST-KEYWORD,novaapp,英国专用
 HOST-KEYWORD,nationwide,英国专用
+HOST-SUFFIX,nationwide.co.uk,英国专用
+HOST-KEYWORD,capitalone,英国专用
+HOST-SUFFIX,capitalone.co.uk,英国专用
