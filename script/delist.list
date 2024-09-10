@@ -4,16 +4,19 @@
 # TOTAL: 15
 
 #n26
-#HOST,www.atigrzen.com, 英国专用
-HOST-SUFFIX,n26.com,英国专用
-HOST-KEYWORD,number26, 英国专用
-HOST-KEYWORD,tech26, 英国专用
-HOST-KEYWORD,n26,英国专用
+#HOST,www.atigrzen.com, 欧洲节点
+HOST-SUFFIX,n26.com,欧洲节点
+HOST-KEYWORD,number26, 欧洲节点
+HOST-KEYWORD,tech26, 欧洲节点
+HOST-KEYWORD,n26,欧洲节点
 
 #bybit
-HOST-KEYWORD,bybdc, 英国专用
-HOST-KEYWORD,bybitglobal, 英国专用
-HOST-KEYWORD,bybit, 英国专用
-HOST-KEYWORD,byd3c3, 英国专用
-HOST-KEYWORD,bitverse, 英国专用
-HOST-KEYWORD,byabcd, 英国专用
+HOST-KEYWORD,bybdc, 欧洲节点
+HOST-KEYWORD,bybitglobal, 欧洲节点
+HOST-KEYWORD,bybit, 欧洲节点
+HOST-KEYWORD,byd3c3, 欧洲节点
+HOST-KEYWORD,bitverse, 欧洲节点
+HOST-KEYWORD,byabcd, 欧洲节点
+
+#simyo
+HOST-KEYWORD,simyo, 欧洲节点
