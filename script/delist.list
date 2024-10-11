@@ -1,23 +1,23 @@
-# NAME: 欧洲金融分流
+# NAME: 德国金融分流
 # AUTHOR: Louis
 # HOST-SUFFIX: 12
 # TOTAL: 15
 
 #n26
-#HOST,www.atigrzen.com, 欧洲节点
-HOST-SUFFIX,n26.com,欧洲节点
-HOST-KEYWORD,number26, 欧洲节点
-HOST-KEYWORD,tech26, 欧洲节点
-HOST-KEYWORD,n26,欧洲节点
+#HOST,www.atigrzen.com, 德国节点
+HOST-SUFFIX,n26.com,德国节点
+HOST-KEYWORD,number26, 德国节点
+HOST-KEYWORD,tech26, 德国节点
+HOST-KEYWORD,n26,德国节点
 
 #bybit
-HOST-KEYWORD,bybdc, 欧洲节点
-HOST-KEYWORD,bybitglobal, 欧洲节点
-HOST-KEYWORD,bybit, 欧洲节点
-HOST-KEYWORD,byd3c3, 欧洲节点
-HOST-KEYWORD,bitverse, 欧洲节点
-HOST-KEYWORD,byabcd, 欧洲节点
-HOST-KEYWORD,byffbb, 欧洲节点
+HOST-KEYWORD,bybdc, 德国节点
+HOST-KEYWORD,bybitglobal, 德国节点
+HOST-KEYWORD,bybit, 德国节点
+HOST-KEYWORD,byd3c3, 德国节点
+HOST-KEYWORD,bitverse, 德国节点
+HOST-KEYWORD,byabcd, 德国节点
+HOST-KEYWORD,byffbb, 德国节点
 
 #simyo
 HOST-KEYWORD,simyo, 欧洲节点
