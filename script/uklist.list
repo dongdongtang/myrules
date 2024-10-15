@@ -10,6 +10,7 @@ HOST-KEYWORD,monzo,英国专用
 HOST,internal-api.monzo.com,英国专用
 HOST,api.sta.monzo-alt.net,英国专用
 HOST-SUFFIX,vodafone.co.uk,英国专用
+HOST-KEYWORD,vodafone,英国专用
 HOST-KEYWORD,giffgaff,英国专用
 HOST-SUFFIX,three.co.uk,英国专用
 HOST-KEYWORD,totallymoney,英国专用
