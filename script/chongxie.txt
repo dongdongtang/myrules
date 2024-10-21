@@ -3427,8 +3427,8 @@ https://mgesq.api.mgtv.com/dsl/index.+ url script-response-body https://raw.gith
 # hostname = wap.bank.ecitic.com, imcs.citicbank.com
 #^https?:\/\/wap.bank\.ecitic\.com:6443\/NMBFOServer\/cbframework\.do\?act=CUBEPAGEDATA url reject-200
 # 开屏广告
-^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|png) url reject
-^https?:\/\/imcs\.citicbank\.com\/cloud\/.+(1125.+2436|1242.+2688|750.+1638|563.+1218) url reject-dict
+#^https:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|png) url reject
+#^https?:\/\/imcs\.citicbank\.com\/cloud\/.+(1125.+2436|1242.+2688|750.+1638|563.+1218) url reject-dict
 
 # > 中国移动
 # hostname = client.app.coc.10086.cn, h.client.app.coc.10086.cn, app.10086.cn
