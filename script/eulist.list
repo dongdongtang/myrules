@@ -7,8 +7,13 @@
 #simyo
 HOST-KEYWORD,simyo, 欧洲节点
 
-#simyo
+#myfin
 HOST-KEYWORD,myfin, 欧洲节点
 
 #lebara
 HOST-SUFFIX,lebara.ch,欧洲节点
+HOST-KEYWORD,lebara, 欧洲节点
+
+#yallo
+HOST-SUFFIX,yallo.ch,欧洲节点
+HOST-KEYWORD,yallo, 欧洲节点
