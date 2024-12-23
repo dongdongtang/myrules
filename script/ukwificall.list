@@ -3,7 +3,7 @@
 #地区检测
 HOST-SUFFIX,gspel-ss1.ls.apple.com,英国专用
 
-＃ 沃达丰
+#沃达丰
 HOST-SUFFIX,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org,英国专用
 HOST-SUFFIX,ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org,英国专用
 HOST-SUFFIX,ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org,英国专用
