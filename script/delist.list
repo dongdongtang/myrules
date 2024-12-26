@@ -26,6 +26,11 @@ HOST-KEYWORD,fiat24, 德国节点
 #stella pay
 HOST-KEYWORD,stellapay, 德国节点
 
+#safepal
 HOST-KEYWORD,isafepal, 德国节点
 HOST-KEYWORD,blockpi, 德国节点
 HOST-KEYWORD,onfinality, 德国节点
+
+#1inch
+HOST-KEYWORD,1inch, 德国节点
+
