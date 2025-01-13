@@ -38,3 +38,7 @@ HOST-SUFFIX,walletconnect.com,德国节点
 #coinbase
 HOST-KEYWORD,coinbase, 德国节点
 HOST-SUFFIX,coinbase.com,德国节点
+
+#bonify
+HOST-KEYWORD,bonify, 德国节点
+HOST-SUFFIX,bonify.de,德国节点
