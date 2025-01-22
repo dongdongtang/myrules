@@ -18,8 +18,5 @@ HOST-SUFFIX,lebara.ch,欧洲节点
 HOST-SUFFIX,yallo.ch,欧洲节点
 HOST-KEYWORD,yallo, 欧洲节点
 
-#moneybase 
-HOST-KEYWORD,moneybase, 欧洲节点
-
 #vodafone ie
 HOST-SUFFIX,vodafone.ie,欧洲节点
