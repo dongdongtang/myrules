@@ -2,30 +2,68 @@
 # AUTHOR: Louis
 #香港银行分流
 
+#BOC HK
 HOST-SUFFIX,bochk.com,香港节点
 HOST-SUFFIX,bochk01.etnet.com.hk, 香港节点
 HOST-SUFFIX,bochk02.etnet.com.hk, 香港节点
-HOST-SUFFIX,ncb.com.hk, 香港节点
 HOST-KEYWORD,bochk,香港节点
+
+#南商NCB
+HOST-SUFFIX,ncb.com.hk, 香港节点
+
+#集友银行CHIYU BANK
 HOST,www.chiyubank.com,香港节点
+
+#OCBC HK
 HOST-SUFFIX,ocbc.com.hk,香港节点
+
+#恒生银行hangseng
 HOST-KEYWORD,hangseng,香港节点
+
+#HSBC HK
 HOST-SUFFIX,hsbc.com.hk, 香港节点
 HOST-KEYWORD,hsbcdigital,香港节点
 #HOST-KEYWORD,hsbc,香港节点
+
+#Standchartbank HK
 HOST-SUFFIX,sc.com, 香港节点
 HOST-KEYWORD,standchartbank,香港节点
+
+#东亚银行BEA HK
 HOST-SUFFIX,hkbea.com,香港节点
+
+#WELAB HK
 HOST-KEYWORD,welab,香港节点
+
+#蚂蚁银行
 HOST-KEYWORD,antbank,香港节点
 HOST-KEYWORD,hkbank,香港节点
+
+#交通银行香港
 HOST-SUFFIX,hk.bankcomm.com,香港节点
+
+#富邦银行
 HOST-SUFFIX,fubonbank.com.hk,香港节点
+
+#澳门通
 HOST-KEYWORD,mpay,香港节点
 HOST-KEYWORD,macaupass,香港节点
+
+#TAP&GO
 HOST-KEYWORD,tapngo,香港节点
-#HOST-KEYWORD,cncbinternational,香港节点
+
+#SOFI HK
 HOST-SUFFIX,sofi.hk,香港节点
-#HOST-KEYWORD,chbank,香港节点
+
+#LIVI BANK
 HOST-KEYWORD,livibank,香港节点
+
+#FUSION BANK
+HOST-SUFFIX,fusionbank.com,香港节点
+
+#大新银行
 #HOST-KEYWORD,dahsing,香港节点
+#创兴银行
+#HOST-KEYWORD,chbank,香港节点
+#中信国际
+#HOST-KEYWORD,cncbinternational,香港节点
