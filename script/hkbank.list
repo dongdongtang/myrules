@@ -61,9 +61,14 @@ HOST-KEYWORD,livibank,香港节点
 #FUSION BANK
 HOST-SUFFIX,fusionbank.com,香港节点
 
+#paobank HK
+HOST-SUFFIX,paob.com.hk,香港节点
+
+
 #大新银行
 #HOST-KEYWORD,dahsing,香港节点
 #创兴银行
 #HOST-KEYWORD,chbank,香港节点
 #中信国际
 #HOST-KEYWORD,cncbinternational,香港节点
+
