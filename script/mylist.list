@@ -1,5 +1,6 @@
 #GEOIP,MY Malaysia
 
+HOST-SUFFIX,com.my,大马节点
 #gopayz
 HOST-SUFFIX,maxmoney.com,大马节点
 HOST-KEYWORD,gobiz,大马节点
