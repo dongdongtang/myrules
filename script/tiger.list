@@ -2,6 +2,10 @@
 # AUTHOR: Louis
 # HOST-SUFFIX: 12
 # TOTAL: 15
+
+HOST-SUFFIX,com.sg,狮城节点
+
+#老虎证券新加坡
 HOST-SUFFIX,tradeup.com,狮城节点
 HOST-SUFFIX,skytigris.cn, 狮城节点
 HOST-SUFFIX,c1.itigergrowtha.com, 狮城节点
@@ -17,3 +21,9 @@ HOST-SUFFIX,ttm.financial, 狮城节点
 HOST-SUFFIX,tigerbrokers.com.sg, 狮城节点
 HOST-SUFFIX,laohu8.com, 狮城节点
 HOST-SUFFIX,tigerbbs.com, 狮城节点
+
+#fsone
+HOST-KEYWORD,fundsupermart,狮城节点
+HOST-KEYWORD,fsone,狮城节点
+HOST-KEYWORD,ifastgm,狮城节点
+HOST-SUFFIX,ifastcorp.com,狮城节点
