@@ -220,6 +220,11 @@ HOST-KEYWORD,ipostalmail,英国专用
 HOST-KEYWORD,evanquis,英国专用
 HOST-KEYWORD,vanquis,英国专用
 
+#sumup uk
+HOST-KEYWORD,sumup,英国专用
+
+
+
 #unkown
 HOST-KEYWORD,launchdarkly,英国专用
 HOST-KEYWORD,verygood,英国专用
