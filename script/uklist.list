@@ -223,7 +223,8 @@ HOST-KEYWORD,vanquis,英国专用
 #sumup uk
 HOST-KEYWORD,sumup,英国专用
 
-
+#ribbon uk
+HOST-KEYWORD,ribbonglobal,英国专用
 
 #unkown
 HOST-KEYWORD,launchdarkly,英国专用
