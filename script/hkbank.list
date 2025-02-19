@@ -51,6 +51,7 @@ HOST-KEYWORD,macaupass,香港节点
 
 #TAP&GO
 HOST-KEYWORD,tapngo,香港节点
+HOST-SUFFIX,gowallet.com.hk, 香港节点
 
 #SOFI HK
 HOST-SUFFIX,sofi.hk,香港节点
