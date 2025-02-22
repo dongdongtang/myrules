@@ -49,3 +49,7 @@ HOST-SUFFIX,vodafonemail.de,德国节点
 
 #moneybase 
 HOST-KEYWORD,moneybase, 欧洲节点
+
+#okx
+HOST-KEYWORD,okx, 德国节点
+
