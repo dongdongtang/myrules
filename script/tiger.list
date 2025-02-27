@@ -1,7 +1,7 @@
-# NAME: tiger.sg
+# NAME: 新加坡分流
 # AUTHOR: Louis
-# HOST-SUFFIX: 12
-# TOTAL: 15
+# HOST-SUFFIX: 
+# TOTAL: 
 
 HOST-SUFFIX,com.sg,狮城节点
 
@@ -22,7 +22,7 @@ HOST-SUFFIX,tigerbrokers.com.sg, 狮城节点
 HOST-SUFFIX,laohu8.com, 狮城节点
 HOST-SUFFIX,tigerbbs.com, 狮城节点
 
-#fsone
+#ifast
 HOST-KEYWORD,fundsupermart,狮城节点
 HOST-KEYWORD,fsmone,狮城节点
 HOST-KEYWORD,ifastgm,狮城节点
