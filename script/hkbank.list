@@ -65,6 +65,8 @@ HOST-SUFFIX,fusionbank.com,香港节点
 #paobank HK
 HOST-SUFFIX,paob.com.hk,香港节点
 
+#AIRSTAR BANK
+HOST-KEYWORD,airstarbank,香港节点
 
 #大新银行
 #HOST-KEYWORD,dahsing,香港节点
