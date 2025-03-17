@@ -229,6 +229,9 @@ HOST-KEYWORD,ribbonglobal,英国专用
 #credability uk
 HOST-KEYWORD,credability,英国专用
 
+#cypher uk
+HOST-KEYWORD,cypherhq,英国专用
+
 #unkown
 HOST-KEYWORD,launchdarkly,英国专用
 HOST-KEYWORD,verygood,英国专用
