@@ -71,25 +71,25 @@ HOST-SUFFIX,wv.inner-active.mobi,REJECT
 HOST-SUFFIX,www.googletagservices-cn.com,REJECT
 
 # 以下为该软件可能需要走代理的规则
-#HOST-SUFFIX,tktn.at,PROXY
-#HOST-SUFFIX,tktn.be,PROXY
+HOST-SUFFIX,tktn.at,美国专用
+HOST-SUFFIX,tktn.be,美国专用
 # 语音留言地址，一般需要代理
 HOST-SUFFIX,vm.talkatone.com,美国专用
 # 贴图服务
 HOST-SUFFIX,tenor.com,美国专用
 
 # 以下为该软件可能需要走直连的规则
-#HOST-SUFFIX,agkn.com,DIRECT
-#HOST-SUFFIX,cohere.com,DIRECT
-#HOST-SUFFIX,crashlytics.com,DIRECT
-#HOST-SUFFIX,inmobi.com,DIRECT
-#HOST-SUFFIX,inner-active.mobi,DIRECT
-#HOST-SUFFIX,ip-api.com,DIRECT
-#HOST-SUFFIX,kochava.com,DIRECT
-#HOST-SUFFIX,mobilefuse.com,DIRECT
-#HOST-SUFFIX,talkatone.com,DIRECT
-#IP-CIDR,205.164.56.0/24,DIRECT
-#IP-CIDR,216.172.154.0/24,DIRECT
-#IP-CIDR,50.117.27.0/24,DIRECT
-#IP-CIDR,63.251.124.0/24,DIRECT
-#IP-CIDR,69.46.75.0/24,DIRECT
+HOST-SUFFIX,agkn.com,美国专用
+HOST-SUFFIX,cohere.com,美国专用
+HOST-SUFFIX,crashlytics.com,美国专用
+HOST-SUFFIX,inmobi.com,美国专用
+HOST-SUFFIX,inner-active.mobi,美国专用
+HOST-SUFFIX,ip-api.com,美国专用
+HOST-SUFFIX,kochava.com,美国专用
+HOST-SUFFIX,mobilefuse.com,美国专用
+HOST-SUFFIX,talkatone.com,美国专用
+IP-CIDR,205.164.56.0/24,美国专用
+IP-CIDR,216.172.154.0/24,美国专用
+IP-CIDR,50.117.27.0/24,美国专用
+IP-CIDR,63.251.124.0/24,美国专用
+IP-CIDR,69.46.75.0/24,美国专用
