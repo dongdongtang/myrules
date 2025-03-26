@@ -4,81 +4,16 @@
 # 整理作者：Louis Tong
 # 仓库地址：https://github.com/dongdongtang/myrules/blob/master/script/talkatone.list
 
-# 以下为该软件部分去广告规则
-HOST-SUFFIX,aax.amazon-adsystem.com,REJECT
-HOST-SUFFIX,aax-fe.amazon-adsystem.com,REJECT
-HOST-SUFFIX,aax-fe-sin.amazon-adsystem.com,REJECT
-HOST-SUFFIX,ads.inmobi.com,REJECT
-HOST-SUFFIX,ads.pubmatic.com,REJECT
-HOST-SUFFIX,adsappier.com,REJECT
-HOST-SUFFIX,amazon-adsystem.com,REJECT
-HOST-SUFFIX,app-analytics-services.com,REJECT
-HOST-SUFFIX,appier.net,REJECT
-HOST-SUFFIX,appiersig.com,REJECT
-HOST-SUFFIX,au.w.inmobi.com,REJECT
-HOST-SUFFIX,b.de.inmobi.com,REJECT
-HOST-SUFFIX,bidder.criteo.com,REJECT
-HOST-SUFFIX,c.amazon-adsystem.com,REJECT
-HOST-SUFFIX,cdn.liftoff-creatives.io,REJECT
-HOST-SUFFIX,cdn.mobilefuse.com,REJECT
-HOST-SUFFIX,cdn2.inner-active.mobi,REJECT
-HOST-SUFFIX,cdn-f.adsmoloco.com,REJECT
-HOST-SUFFIX,config.inmobi.com,REJECT
-HOST-SUFFIX,cr.adsappier.com,REJECT
-HOST-SUFFIX,criteo.com,REJECT
-HOST-SUFFIX,dspbeacons.ihasdsp.inmobi.com,REJECT
-HOST-SUFFIX,dspbeacons.old.ihasdsp.inmobi.com,REJECT
-HOST-SUFFIX,ep7.facebook.com,REJECT
-HOST-SUFFIX,et-eus.w.inmobi.com,REJECT
-HOST-SUFFIX,ets-ap-southeast-1.track.smaato.net,REJECT
-HOST-SUFFIX,exchange-b-events.inner-active.mobi,REJECT
-HOST-SUFFIX,firebaseinstallations.googleapis.com,REJECT
-HOST-SUFFIX,firebaselogging-pa.googleapis.com,REJECT
-HOST-SUFFIX,firebaseremoteconfig.googleapis.com,REJECT
-HOST-SUFFIX,firebase-settings.crashlytics.com,REJECT
-HOST-SUFFIX,fundingchoicesmessages.google.com,REJECT
-HOST-SUFFIX,googleads.g.doubleclick.net,REJECT
-HOST-SUFFIX,googleads.g.doubleclick-cn.net,REJECT
-HOST-SUFFIX,googlesyndication.com,REJECT
-HOST-SUFFIX,gum.criteo.com,REJECT
-HOST-SUFFIX,i.l.inmobicdn.net,REJECT
-HOST-SUFFIX,i.l-dsp.inmobicdn.net,REJECT
-HOST-SUFFIX,ic.de.inmobi.com,REJECT
-HOST-SUFFIX,impression.link,REJECT
-HOST-SUFFIX,impression-asia.liftoff.io,REJECT
-HOST-SUFFIX,ins.track.tappx.com,REJECT
-HOST-SUFFIX,lh3.googleadsserving.cn,REJECT
-HOST-SUFFIX,mads.amazon-adsystem.com,REJECT
-HOST-SUFFIX,mfx.mobilefuse.com,REJECT
-HOST-SUFFIX,mt-usw.appiersig.com,REJECT
-HOST-SUFFIX,pagead2.googlesyndication-cn.com,REJECT
-HOST-SUFFIX,pubmatic.com,REJECT
-HOST-SUFFIX,sdk-dnt.ad.smaato.net,REJECT
-HOST-SUFFIX,sdk-events.inner-active.mobi,REJECT
-HOST-SUFFIX,sdk-files.smaato.net,REJECT
-HOST-SUFFIX,sdk-hb-cfg.smaato.net,REJECT
-HOST-SUFFIX,skadnetworks.fyber.com,REJECT
-HOST-SUFFIX,smaato.net,REJECT
-HOST-SUFFIX,ssp.api.tappx.com,REJECT
-HOST-SUFFIX,supply.inmobicdn.net,REJECT
-HOST-SUFFIX,taboola.com,REJECT
-HOST-SUFFIX,tappx.com,REJECT
-HOST-SUFFIX,tpc.googlesyndication-cn.com,REJECT
-HOST-SUFFIX,tr-asia.adsmoloco.com,REJECT
-HOST-SUFFIX,view.adjust.com,REJECT
-HOST-SUFFIX,vst.c.appier.net,REJECT
-HOST-SUFFIX,wv.inner-active.mobi,REJECT
-HOST-SUFFIX,www.googletagservices-cn.com,REJECT
 
-# 以下为该软件可能需要走代理的规则
 HOST-SUFFIX,tktn.at,美国专用
 HOST-SUFFIX,tktn.be,美国专用
+
 # 语音留言地址，一般需要代理
 HOST-SUFFIX,vm.talkatone.com,美国专用
+
 # 贴图服务
 HOST-SUFFIX,tenor.com,美国专用
 
-# 以下为该软件可能需要走直连的规则
 HOST-SUFFIX,agkn.com,美国专用
 HOST-SUFFIX,cohere.com,美国专用
 HOST-SUFFIX,crashlytics.com,美国专用
