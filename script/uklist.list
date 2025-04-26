@@ -232,6 +232,9 @@ HOST-KEYWORD,credability,英国专用
 #cypher uk
 HOST-KEYWORD,cypherhq,英国专用
 
+#p100 uk
+HOST-KEYWORD,p100,英国专用
+
 #unkown
 HOST-KEYWORD,launchdarkly,英国专用
 HOST-KEYWORD,verygood,英国专用
