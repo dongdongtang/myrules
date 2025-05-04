@@ -13,6 +13,7 @@ HOST-SUFFIX,ncb.com.hk, 香港节点
 
 #集友银行CHIYU BANK
 HOST,www.chiyubank.com,香港节点
+HOST-KEYWORD,cybhk,香港节点
 
 #OCBC HK
 HOST-SUFFIX,ocbc.com.hk,香港节点
