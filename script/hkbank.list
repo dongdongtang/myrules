@@ -31,7 +31,7 @@ HOST-SUFFIX,sc.com, 香港节点
 HOST-KEYWORD,standchartbank,香港节点
 
 #东亚银行BEA HK
-HOST-SUFFIX,hkbea.com,香港节点
+#HOST-SUFFIX,hkbea.com,香港节点
 
 #WELAB HK
 HOST-KEYWORD,welab,香港节点
