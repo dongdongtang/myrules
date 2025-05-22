@@ -1,6 +1,5 @@
 #Talkatone 分流
-# 本模块主要为 Talkatone 进行策略分流，解决使用某些节点时无法直接使用 Talkatone 的问题。
-# 本模块仅适用于 Talkatone 登陆后使用，不适用于软件注册，若尝试登录时失败可以将 tktn.at 的策略改为 DIRECT 后再试，成功后改回本来策略或重新更新本模块
+# 对Talkatone相关服务进行分流，建议选择美区
 # 整理作者：Louis Tong
 # 仓库地址：https://github.com/dongdongtang/myrules/blob/master/script/talkatone.list
 
