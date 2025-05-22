@@ -4,27 +4,9 @@
 # 整理作者：Louis Tong
 # 仓库地址：https://github.com/dongdongtang/myrules/blob/master/script/talkatone.list
 
-
-HOST-SUFFIX,tktn.at,美国专用
-HOST-SUFFIX,tktn.be,美国专用
-
-# 语音留言地址，一般需要代理
-HOST-SUFFIX,vm.talkatone.com,美国专用
-
-# 贴图服务
-HOST-SUFFIX,tenor.com,美国专用
-
-HOST-SUFFIX,agkn.com,美国专用
-HOST-SUFFIX,cohere.com,美国专用
-HOST-SUFFIX,crashlytics.com,美国专用
-HOST-SUFFIX,inmobi.com,美国专用
-HOST-SUFFIX,inner-active.mobi,美国专用
-HOST-SUFFIX,ip-api.com,美国专用
-HOST-SUFFIX,kochava.com,美国专用
-HOST-SUFFIX,mobilefuse.com,美国专用
-HOST-SUFFIX,talkatone.com,美国专用
-IP-CIDR,205.164.56.0/24,美国专用
-IP-CIDR,216.172.154.0/24,美国专用
-IP-CIDR,50.117.27.0/24,美国专用
-IP-CIDR,63.251.124.0/24,美国专用
-IP-CIDR,69.46.75.0/24,美国专用
+host-suffix, tktn.be, Talkatone
+host-keyword, mobilefuse, Talkatone
+IP-CIDR, 50.117.27.0/24, Talkatone
+IP-CIDR, 69.46.75.0/24, Talkatone
+IP-CIDR, 205.164.56.29/24, Talkatone
+IP-CIDR, 63.251.124.0/24, Talkatone
