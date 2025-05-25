@@ -53,3 +53,7 @@ HOST-KEYWORD,moneybase, 欧洲节点
 #okx
 HOST-KEYWORD,okx, 德国节点
 
+#kraken
+HOST-KEYWORD,kraken,德国节点
+
+
