@@ -237,9 +237,12 @@ HOST-KEYWORD,p100,英国专用
 #ether.fi 
 HOST-SUFFIX,ether.fi,英国专用
 
+#hyperjar
+HOST-KEYWORD,transfergo,英国专用
+
+
+
 HOST-SUFFIX,cashbacksrv.com,英国专用
-
-
 #unkown
 HOST-KEYWORD,launchdarkly,英国专用
 HOST-KEYWORD,verygood,英国专用
