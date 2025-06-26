@@ -253,6 +253,10 @@ HOST-KEYWORD,mt48,英国专用
 HOST-KEYWORD,klarnacdn,英国专用
 HOST-SUFFIX,stocard.de,英国专用
 
+#bitget
+HOST-KEYWORD,bitkeep,英国专用
+
+
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
 HOST-KEYWORD,launchdarkly,英国专用
