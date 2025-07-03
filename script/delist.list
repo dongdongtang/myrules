@@ -54,5 +54,10 @@ HOST-KEYWORD,moneybase, 欧洲节点
 #okx
 HOST-KEYWORD,okx, 德国节点
 
+#VIMpay
+HOST-SUFFIX,petafuel.net,德国节点
+HOST-KEYWORD,petafuel, 德国节点
+HOST-KEYWORD,vimpaychat, 德国节点
+HOST-KEYWORD,vimpayws, 德国节点
 
 
