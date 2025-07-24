@@ -271,6 +271,12 @@ HOST-KEYWORD,mixpanel,英国专用
 #argent
 HOST-KEYWORD,argent,英国专用
 
+#lemfi
+HOST-KEYWORD,appsflyersdk,英国专用
+HOST-SUFFIX,crowdin.net,英国专用
+HOST-SUFFIX,lemonade.finance,英国专用
+
+
 
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
