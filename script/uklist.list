@@ -241,7 +241,7 @@ HOST-SUFFIX,ether.fi,英国专用
 HOST-KEYWORD,transfergo,英国专用
 
 #kraken
-HOST-KEYWORD,kraken,英国专用
+#HOST-KEYWORD,kraken,英国专用
 
 #chip
 HOST-KEYWORD,chiphq,英国专用
