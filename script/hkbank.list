@@ -81,10 +81,10 @@ HOST-SUFFIX,contentstack.io,香港节点
 HOST-SUFFIX,shoplineapp.com,香港节点
 HOST-KEYWORD,mtrmobile,香港节点
 
+#中信国际
+HOST-KEYWORD,cncbinternational,香港节点
+
 #大新银行
 #HOST-KEYWORD,dahsing,香港节点
 #创兴银行
 #HOST-KEYWORD,chbank,香港节点
-#中信国际
-#HOST-KEYWORD,cncbinternational,香港节点
-
