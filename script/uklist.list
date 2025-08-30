@@ -276,6 +276,8 @@ HOST-KEYWORD,appsflyersdk,英国专用
 HOST-SUFFIX,crowdin.net,英国专用
 HOST-SUFFIX,lemonade.finance,英国专用
 
+#kast
+HOST-KEYWORD,kastapi,英国专用
 
 
 #unkown
