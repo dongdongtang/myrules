@@ -2,6 +2,7 @@
 # AUTHOR: Louis
 #香港银行分流
 
+HOST-SUFFIX,com.hk,香港节点
 #BOC HK
 HOST-SUFFIX,bochk.com,香港节点
 HOST-SUFFIX,bochk01.etnet.com.hk, 香港节点
@@ -88,6 +89,11 @@ HOST-KEYWORD,lusobank,香港节点
 HOST-SUFFIX,com.mo,香港节点
 HOST-SUFFIX,aastocks.com,香港节点
 HOST-SUFFIX,tx-tech.com,香港节点
+
+#3HK
+HOST-SUFFIX,three.com.hk,香港节点
+
+
 
 #中信国际
 #HOST-KEYWORD,cncbinternational,香港节点
