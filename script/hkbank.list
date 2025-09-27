@@ -85,7 +85,7 @@ HOST-SUFFIX,shoplineapp.com,香港节点
 HOST-KEYWORD,mtrmobile,香港节点
 
 #澳门国际银行
-HOST-KEYWORD,lusobank,香港节点
+#HOST-KEYWORD,lusobank,香港节点
 HOST-SUFFIX,com.mo,香港节点
 HOST-SUFFIX,aastocks.com,香港节点
 HOST-SUFFIX,tx-tech.com,香港节点
