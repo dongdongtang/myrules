@@ -4,6 +4,10 @@
   "icons": [
      {
       "name": "eu",
+      "url": "https://raw.githubusercontent.com/dongdongtang/myrules/refs/heads/master/icons/eu.png"
+    },
+     {
+      "name": "eu2",
       "url": "https://raw.githubusercontent.com/dongdongtang/myrules/refs/heads/master/icons/eu2.png"
     },
     {
