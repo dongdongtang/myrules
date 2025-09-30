@@ -2,13 +2,9 @@
   "name": "dongdong图标库",
   "description": "dongdong出品",
   "icons": [
-    {
-      "name": "ph",
-      "url": "https://raw.githubusercontent.com/dongdongtang/myrules/refs/heads/master/icons/ph.png"
-    },
-    {
-      "name": "ph2",
-      "url": "https://raw.githubusercontent.com/dongdongtang/myrules/refs/heads/master/icons/Ph.png"
+     {
+      "name": "eu",
+      "url": "https://raw.githubusercontent.com/dongdongtang/myrules/refs/heads/master/icons/eu.png"
     },
     {
       "name": "hk",
