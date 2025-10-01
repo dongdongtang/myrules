@@ -282,6 +282,10 @@ HOST-KEYWORD,kastapi,英国专用
 #pera
 HOST-KEYWORD,perawallet,英国专用
 
+#solflare
+HOST-KEYWORD,solflare,英国专用
+HOST-KEYWORD,solana-cdn,英国专用
+
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
 HOST-KEYWORD,launchdarkly,英国专用
