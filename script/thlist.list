@@ -1,0 +1,12 @@
+#GEOIP,th
+
+#ais
+HOST-SUFFIX,ais.th,泰国节点
+HOST-KEYWORD,adldigitalsevice,泰国节点
+
+
+#line
+HOST-SUFFIX,line.me,泰国节点
+HOST-KEYWORD,linepayth,泰国节点
+HOST-KEYWORD,line-scdn,泰国节点
+HOST-KEYWORD,line-apps,泰国节点
