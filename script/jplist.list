@@ -40,4 +40,10 @@ HOST-KEYWORD,ana,日本节点
 #jal
 HOST-SUFFIX,jal.co.jp,日本节点
 
+#suica
+HOST-KEYWORD,suica,日本节点
+HOST-KEYWORD,jreast,日本节点
+HOST-KEYWORD,mobilesuica,日本节点
+
+
 
