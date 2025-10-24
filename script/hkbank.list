@@ -26,8 +26,10 @@ HOST-KEYWORD,hangseng,香港节点
 HOST-SUFFIX,hsbc.com.hk, 香港节点
 HOST-KEYWORD,hsbcdigital,香港节点
 #HOST-KEYWORD,hsbc,香港节点
-HOST-KEYWORD,payme,香港节点
-HOST-KEYWORD,notey,香港节点
+HOST-KEYWORD,paymebiz, 香港节点
+HOST-KEYWORD,codpayment, 香港节点
+HOST-SUFFID,notey.com,香港节点
+HOST-KEYWORD,payme-api, 香港节点
 
 #Standchartbank HK
 HOST-SUFFIX,sc.com, 香港节点
