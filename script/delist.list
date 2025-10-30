@@ -63,7 +63,7 @@ HOST-KEYWORD,vimpayws, 德国节点
 #Stables
 HOST-SUFFIX,intercom.io,德国节点
 HOST-SUFFIX,tiiik.money,德国节点
-HOST-SUFFIX,branch.io,德国节点
+#HOST-SUFFIX,branch.io,德国节点
 HOST-SUFFIX,intercom.com,德国节点
 HOST-KEYWORD,amplitude, 德国节点
 
