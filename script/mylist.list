@@ -16,3 +16,7 @@ HOST-KEYWORD,alipayplus,大马节点
 #bigpay
 HOST-KEYWORD,bigpayme,大马节点
 HOST-KEYWORD,bigpay,大马节点
+
+#u mobile
+HOST-SUFFIX,u.com.my,大马节
+HOST-KEYWORD,umobileapp,大马节点
