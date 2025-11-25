@@ -20,3 +20,7 @@ HOST-KEYWORD,bigpay,大马节点
 #u mobile
 HOST-SUFFIX,u.com.my,大马节
 HOST-KEYWORD,umobileapp,大马节点
+
+#celcomdigi
+HOST-SUFFIX,gleap.io,大马节
+HOST-KEYWORD,celcomdigi,大马节点
