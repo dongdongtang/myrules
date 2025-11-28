@@ -35,7 +35,7 @@ HOST-KEYWORD,paycierge,日本节点
 #ana
 HOST-SUFFIX,ana.data.adobede.net,日本节点
 HOST-SUFFIX,ana.co.jp,日本节点
-HOST-KEYWORD,ana,日本节点
+#HOST-KEYWORD,ana,日本节点
 
 #jal
 HOST-SUFFIX,jal.co.jp,日本节点
