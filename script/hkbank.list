@@ -95,7 +95,9 @@ HOST-SUFFIX,tx-tech.com,香港节点
 #3HK
 HOST-SUFFIX,three.com.hk,香港节点
 
-
+#stripe
+HOST-KEYWORD,stripe,香港节点
+HOST-KEYWORD,stripecdn,香港节点
 
 #中信国际
 #HOST-KEYWORD,cncbinternational,香港节点
