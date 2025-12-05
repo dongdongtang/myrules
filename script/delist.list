@@ -71,13 +71,17 @@ HOST-KEYWORD,amplitude, 德国节点
 HOST-KEYWORD,neverless, 德国节点
 
 #bitget
-HOST-KEYWORD,bitkeep,英国专用
-HOST-KEYWORD,bitapi,英国专用
-HOST-SUFFIX,jjdsn.vip,英国专用
-HOST-KEYWORD,chainnear,英国专用
-HOST-KEYWORD,noxiaohao,英国专用
-HOST-KEYWORD,lymryy,英国专用
-HOST-KEYWORD,ljhsnzpc,英国专用
+HOST-KEYWORD,bitkeep,德国节点
+HOST-KEYWORD,bitapi,德国节点
+HOST-SUFFIX,jjdsn.vip,德国节点
+HOST-KEYWORD,chainnear,德国节点
+HOST-KEYWORD,noxiaohao,德国节点
+HOST-KEYWORD,lymryy,德国节点
+HOST-KEYWORD,ljhsnzpc,德国节点
+
+#monese
+HOST-KEYWORD,monese,德国节点
+
 
 
 
