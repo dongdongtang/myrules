@@ -86,5 +86,7 @@ HOST-KEYWORD,monese,德国节点
 HOST-KEYWORD,oraclersys,德国节点
 HOST-SUFFIX,skrill.com,德国节点
 
+#Pionex
+HOST-KEYWORD,pioneerex,德国节点
 
 
