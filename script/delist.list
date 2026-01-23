@@ -51,8 +51,15 @@ HOST-SUFFIX,vodafonemail.de,德国节点
 #moneybase 
 HOST-KEYWORD,moneybase, 欧洲节点
 
-#okx
+#okx 欧易 OKX / OKCoin / OKLink 分流规则 含cloudflare + okx.com 及相关域名
 HOST-KEYWORD,okx, 德国节点
+HOST-SUFFIX,okx.com.cdn.cloudflare.net , 德国节点
+HOST-SUFFIX,cloudfront.net, 德国节点
+HOST-SUFFIX,cnouyi.pizza, 德国节点
+HOST-SUFFIX,okcoin.com, 德国节点
+HOST-SUFFIX,okx.com, 德国节点
+HOST-SUFFIX,okex.com, 德国节点
+HOST-SUFFIX,oklink.com, 德国节点
 
 #VIMpay
 HOST-SUFFIX,petafuel.net,德国节点
