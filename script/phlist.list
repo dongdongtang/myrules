@@ -32,3 +32,7 @@ HOST-KEYWORD,gcash,菲律宾节点
 
 #coca
 HOST-SUFFIX,coca.xyz,菲律宾节点
+
+#simple
+HOST-SUFFIX,simple.app,菲律宾节点
+HOST-SUFFIX,hyperliquid.xyz,菲律宾节点
