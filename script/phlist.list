@@ -29,3 +29,6 @@ HOST-SUFFIX,gcash.com,菲律宾节点
 HOST-SUFFIX,.gcash.com,菲律宾节点
 HOST-SUFFIX,www.gcash.com,菲律宾节点
 HOST-KEYWORD,gcash,菲律宾节点
+
+#coca
+HOST-SUFFIX,coca.xyz,菲律宾节点
