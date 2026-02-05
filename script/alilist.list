@@ -1,0 +1,24 @@
+#GEOIP,alipay
+#防止支付宝在一定程度上传带有2088开头UID的日志，防止支付宝上传屏幕点击记录/账号切换记录等
+
+host, rds.alipay.com, reject
+host, adgw.alipay.com, reject
+host, mdap.alipay.com, reject
+host, mugw.alipay.com, reject
+host, loggw.alipay.com, reject
+host, tracert.alipay.com, reject
+host, edgegw.alipay.com, reject
+host, cdn.ynuf.aliapp.org, reject
+host, loggw-ex.alipay.com, reject
+host, mobilegw.alipay.com, reject
+host, csmobiledata.alipay.com, reject
+host, datagw-edge.alipay.com, reject
+host, guide-acs.m.taobao.com, reject
+host, edgegw-infer.alipay.com, reject
+host, agoo-report.m.taobao.com, reject
+host, amdc-sibling.alipay.com.cn, reject
+host, amdc-thirdparty.alipay.com, reject
+host, bailingual-assets.alipay.com, reject
+host, api-mayi.django.t.taobao.com, reject
+host, dataservice.alipayobjects.com, reject
+host, card-web-tracking.cn-hangzhou.log.aliyuncs.com, reject
