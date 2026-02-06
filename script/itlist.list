@@ -7,6 +7,9 @@ HOST-SUFFIX,lokalise.com,意大利节点
 
 #westernunion
 HOST-KEYWORD,westernunion,意大利节点
+HOST-KEYWORD,wuib,意大利节点
+HOST-SUFFIX,mparticle.com,意大利节点
+HOST-SUFFIX,confsettings.com,意大利节点
 
 #blackcatcard
 HOST-KEYWORD,blackcatcard,意大利节点
