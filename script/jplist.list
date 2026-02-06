@@ -8,7 +8,7 @@ HOST-KEYWORD,sardine,日本节点
 
 #bankit
 HOST-SUFFIX,bankit.jp,日本节点
-HOST-KEYWORD,bankitadmin,日本节点
+#HOST-KEYWORD,bankitadmin,日本节点
 
 #famipay
 HOST-KEYWORD,famipay,日本节点
