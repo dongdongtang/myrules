@@ -211,7 +211,7 @@ HOST-KEYWORD,royalmail,英国专用
 HOST-KEYWORD,altery,英国专用
 
 #westernunion uk
-HOST-KEYWORD,westernunion,英国专用
+#HOST-KEYWORD,westernunion,英国专用
 
 #topcashback uk
 HOST-KEYWORD,topcashback,英国专用
