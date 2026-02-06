@@ -1,0 +1,13 @@
+#GEOIP,意大利分流
+
+#bunq
+HOST-KEYWORD,bunq,意大利节点
+
+#westernunion
+HOST-KEYWORD,westernunion,意大利节点
+
+#blackcatcard
+HOST-KEYWORD,blackcatcard,意大利节点
+
+#wirex
+HOST-KEYWORD,wirexapp,意大利节点
