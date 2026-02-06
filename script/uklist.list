@@ -252,7 +252,7 @@ HOST-KEYWORD,chiphq,英国专用
 
 #klarna uk
 HOST-KEYWORD,fullstory,英国专用
-HOST-KEYWORD,mparticle,英国专用
+#HOST-KEYWORD,mparticle,英国专用
 HOST-KEYWORD,mt48,英国专用
 HOST-KEYWORD,klarnacdn,英国专用
 HOST-SUFFIX,stocard.de,英国专用
