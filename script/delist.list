@@ -96,4 +96,8 @@ HOST-SUFFIX,skrill.com,德国节点
 #Pionex
 HOST-KEYWORD,pioneerex,德国节点
 
+#backpack
+HOST-KEYWORD,backpack,德国节点
+HOST-SUFFIX,madlads.com,德国节点
+HOST-SUFFIX,bitdrift.io,德国节点
 
