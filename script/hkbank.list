@@ -99,6 +99,11 @@ HOST-SUFFIX,three.com.hk,香港节点
 HOST-KEYWORD,stripe,香港节点
 HOST-KEYWORD,stripecdn,香港节点
 
+#yuu
+HOST-SUFFIX,rta-os.com,香港节点
+HOST-KEYWORD,yuurewards,香港节点
+
+
 #中信国际
 #HOST-KEYWORD,cncbinternational,香港节点
 
