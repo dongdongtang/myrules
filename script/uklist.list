@@ -289,6 +289,10 @@ HOST-KEYWORD,solana-cdn,英国专用
 HOST-KEYWORD,oobit,英国专用
 HOST-SUFFIX,unleash-hosted.com,英国专用
 
+#ig invest
+HOST-SUFFIX,ig.com,英国专用
+
+
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
 HOST-KEYWORD,launchdarkly,英国专用
