@@ -106,3 +106,7 @@ HOST-KEYWORD,getmeru,德国节点
 
 #jeton
 HOST-KEYWORD,jeton,德国节点
+
+#o2
+HOST-KEYWORD,o2online,德国节点
+HOST-SUFFIX,o9.de,德国节点
