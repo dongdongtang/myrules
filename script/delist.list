@@ -110,3 +110,9 @@ HOST-KEYWORD,jeton,德国节点
 #o2
 HOST-KEYWORD,o2online,德国节点
 HOST-SUFFIX,o9.de,德国节点
+
+#plasma
+HOST-SUFFIX,plasma-one.tech,德国节点
+HOST-SUFFIX,knock.app,德国节点
+HOST-SUFFIX,posthog.com,德国节点
+HOST-SUFFIX,privy.io,德国节点
