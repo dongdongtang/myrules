@@ -214,7 +214,8 @@ HOST-KEYWORD,altery,英国专用
 #HOST-KEYWORD,westernunion,英国专用
 
 #topcashback uk
-HOST-KEYWORD,topcashback,英国专用
+HOST-SUFFIX,topcashback.co.uk,英国专用
+HOST-SUFFIX,ukp.tcb-cdn.com,英国专用
 
 #ukpostbox uk
 HOST-KEYWORD,ipostalmail,英国专用
