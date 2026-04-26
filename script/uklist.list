@@ -301,7 +301,8 @@ HOST-KEYWORD,tide,英国专用
 HOST-SUFFIX,cashbacksrv.com,英国专用
 HOST-KEYWORD,quidco,英国专用
 
-
+#luxonpay
+HOST-KEYWORD,luxon,英国专用
 
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
