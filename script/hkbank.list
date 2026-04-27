@@ -104,6 +104,10 @@ HOST-KEYWORD,stripecdn,香港节点
 HOST-SUFFIX,rta-os.com,香港节点
 HOST-KEYWORD,yuurewards,香港节点
 
+#Za Bank
+HOST-SUFFIX,za.group,香港节点
+HOST-KEYWORD,zajourney,香港节点
+
 
 #中信国际
 #HOST-KEYWORD,cncbinternational,香港节点
