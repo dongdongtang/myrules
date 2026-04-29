@@ -304,6 +304,12 @@ HOST-KEYWORD,quidco,英国专用
 #luxonpay
 HOST-KEYWORD,luxon,英国专用
 
+#amex uk
+HOST-KEYWORD,aexpfeedback,英国专用
+HOST-SUFFIX,americanexpress.com,英国专用
+
+
+
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
 HOST-KEYWORD,launchdarkly,英国专用
