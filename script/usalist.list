@@ -1,12 +1,16 @@
 #GEOIP,usa
 
-#ais
-HOST-SUFFIX,ais.th,泰国节点
-HOST-KEYWORD,adldigitalsevice,泰国节点
+#reddit
+HOST-KEYWORD,reddit,美国节点
 
+#flights25
+#HOST-SUFFIX,line.me,美国节点
+HOST-KEYWORD,connectivitycheck,美国节点
+HOST-KEYWORD,mapbox,美国节点
+HOST-KEYWORD,flights25,美国节点
 
-#line
-HOST-SUFFIX,line.me,泰国节点
-HOST-KEYWORD,linepayth,泰国节点
-HOST-KEYWORD,line-scdn,泰国节点
-HOST-KEYWORD,line-apps,泰国节点
+#asu.edu
+HOST-SUFFIX,asu.edu,美国节点
+
+#bsky
+HOST-KEYWORD,bsky,美国节点
