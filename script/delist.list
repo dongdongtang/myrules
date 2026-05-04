@@ -120,3 +120,15 @@ HOST-SUFFIX,privy.io,德国节点
 #topcashback
 HOST-SUFFIX,dep.tcb-cdn.com,德国节点
 HOST-SUFFIX,topcashback.de,德国节点
+
+#blackcat
+HOST-KEYWORD,kommunicate,德国节点
+HOST-KEYWORD,blackcat,德国节点
+HOST-KEYWORD,blackcatcard,德国节点
+
+#redotpay
+HOST-KEYWORD,redotpay,德国节点
+
+#ur.app
+HOST-SUFFIX,ur.app,德国节点
+
