@@ -1,1 +1,9 @@
-ghhh
+#GEOIP,小红书
+
+#xiaohongshu
+HOST-KEYWORD,rednotecdn,意大利节点
+HOST-KEYWORD,rnote,意大利节点
+HOST-KEYWORD,xhscdn,意大利节点
+HOST-KEYWORD,xiaohongshu,意大利节点
+#HOST-SUFFIX,eu.sardine.ai,意大利节点
+#HOST-SUFFIX,lokalise.com,意大利节点
