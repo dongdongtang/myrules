@@ -308,6 +308,8 @@ HOST-KEYWORD,luxon,英国专用
 HOST-KEYWORD,aexpfeedback,英国专用
 HOST-SUFFIX,americanexpress.com,英国专用
 
+#kraken
+HOST-KEYWORD,kraken,英国专用
 
 
 #unkown
