@@ -108,6 +108,26 @@ HOST-KEYWORD,yuurewards,香港节点
 HOST-SUFFIX,za.group,香港节点
 HOST-KEYWORD,zajourney,香港节点
 
+#price hk
+HOST-SUFFIX,syndicatedsearch.goog,香港节点
+HOST-SUFFIX,price.com.hk,香港节点
+
+#ibkr
+HOST-SUFFIX,ibllc.com,香港节点
+HOST-SUFFIX,interactivebrokers.com,香港节点
+HOST-KEYWORD,ibkr,香港节点
+
+#bitfinex
+HOST-KEYWORD,bitfinex,香港节点
+
+#freecloud
+HOST-SUFFIX,freecloud.ltd,香港节点
+
+
+#kolo
+HOST-KEYWORD,kolo,香港节点
+
+
 
 #中信国际
 #HOST-KEYWORD,cncbinternational,香港节点
