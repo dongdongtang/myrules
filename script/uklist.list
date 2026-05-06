@@ -311,6 +311,8 @@ HOST-SUFFIX,americanexpress.com,英国专用
 #kraken
 HOST-KEYWORD,kraken,英国专用
 
+#rakuten
+HOST-SUFFIX,rakuten.co.uk,英国专用
 
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
