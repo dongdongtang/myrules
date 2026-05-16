@@ -136,3 +136,6 @@ HOST-SUFFIX,ur.app,德国节点
 HOST-SUFFIX,lava.xyz,德国节点
 HOST-KEYWORD,datadoghq,德国节点
 
+#profee
+HOST-KEYWORD,profee,德国节点
+
