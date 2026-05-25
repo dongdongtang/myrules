@@ -132,9 +132,24 @@ HOST-KEYWORD,pbkrs,香港节点
 HOST-KEYWORD,longbridge,香港节点
 HOST-KEYWORD,lbkrs,香港节点
 
+#vbrokers
+HOST-KEYWORD,hszq8,香港节点
+HOST-KEYWORD,hstong,香港节点
+HOST-KEYWORD,hszq6,香港节点
+HOST-KEYWORD,hstbroker,香港节点
+HOST-SUFFIX,vbkr.com,香港节点
+
+#zr.com
+HOST-KEYWORD,zr66,香港节点
+HOST-SUFFIX,zrsec.com,香港节点
+
+#zl global
+HOST-SUFFIX,chinatai.com,香港节点
+HOST-SUFFIX,zhangle.com,香港节点
+
+
 #中信国际
 #HOST-KEYWORD,cncbinternational,香港节点
-
 #大新银行
 #HOST-KEYWORD,dahsing,香港节点
 #创兴银行
