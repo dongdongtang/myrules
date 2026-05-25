@@ -123,11 +123,14 @@ HOST-KEYWORD,bitfinex,香港节点
 #freecloud
 HOST-SUFFIX,freecloud.ltd,香港节点
 
-
 #kolo
 HOST-KEYWORD,kolo,香港节点
 
-
+#longbridge
+HOST-KEYWORD,lbctrl,香港节点
+HOST-KEYWORD,pbkrs,香港节点
+HOST-KEYWORD,longbridge,香港节点
+HOST-KEYWORD,lbkrs,香港节点
 
 #中信国际
 #HOST-KEYWORD,cncbinternational,香港节点
