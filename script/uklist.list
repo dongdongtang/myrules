@@ -314,6 +314,9 @@ HOST-KEYWORD,kraken,英国专用
 #rakuten
 HOST-SUFFIX,rakuten.co.uk,英国专用
 
+#taptapsend
+HOST-KEYWORD,taptapsend,英国专用
+
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
 HOST-KEYWORD,launchdarkly,英国专用
