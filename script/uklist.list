@@ -318,10 +318,10 @@ HOST-SUFFIX,rakuten.co.uk,英国专用
 HOST-KEYWORD,taptapsend,英国专用
 
 #plasma
-HOST-SUFFIX,plasma-one.tech,德国节点
-HOST-SUFFIX,knock.app,德国节点
-HOST-SUFFIX,posthog.com,德国节点
-HOST-SUFFIX,privy.io,德国节点
+HOST-SUFFIX,plasma-one.tech,英国专用
+HOST-SUFFIX,knock.app,英国专用
+HOST-SUFFIX,posthog.com,英国专用
+HOST-SUFFIX,privy.io,英国专用
 
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
