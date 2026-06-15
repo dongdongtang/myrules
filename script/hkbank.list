@@ -131,6 +131,10 @@ HOST-KEYWORD,lbctrl,香港节点
 HOST-KEYWORD,pbkrs,香港节点
 HOST-KEYWORD,longbridge,香港节点
 HOST-KEYWORD,lbkrs,香港节点
+HOST-SUFFIX,wbrks.com,香港节点
+HOST-SUFFIX,longportapp.cn,香港节点
+HOST-SUFFIX,longportapp.com,香港节点
+HOST-SUFFIX,longbridgeapp.com,香港节点
 
 #vbrokers
 HOST-KEYWORD,hszq8,香港节点
