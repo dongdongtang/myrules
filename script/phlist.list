@@ -43,3 +43,9 @@ HOST-SUFFIX,grey.engineering,菲律宾节点
 
 #YPT
 HOST-SUFFIX,ypt.com,菲律宾节点
+
+#bitget
+HOST-KEYWORD,bitget,菲律宾节点
+HOST-KEYWORD,bgstatic,菲律宾节点
+HOST-KEYWORD,gdrichem,菲律宾节点
+HOST-KEYWORD,engagelab,菲律宾节点
