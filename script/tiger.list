@@ -6,21 +6,21 @@
 HOST-SUFFIX,com.sg,狮城节点
 
 #老虎证券新加坡
-HOST-SUFFIX,tradeup.com,狮城节点
-HOST-SUFFIX,skytigris.cn, 狮城节点
-HOST-SUFFIX,c1.itigergrowtha.com, 狮城节点
-HOST,www.atigrzen.com, 狮城节点
-HOST-SUFFIX,apihub.skytigris.cn, 狮城节点
-HOST-SUFFIX,trade.tigerbrokers.com.sg, 狮城节点
-HOST-KEYWORD,tiger,狮城节点
-HOST-KEYWORD,skytigris,狮城节点
-HOST-SUFFIX,static.tigerbbs.com, 狮城节点
-HOST-SUFFIX,stock-news.laohu8.com, 狮城节点
-HOST-SUFFIX,tigerfintech.com, 狮城节点
-HOST-SUFFIX,ttm.financial, 狮城节点
-HOST-SUFFIX,tigerbrokers.com.sg, 狮城节点
-HOST-SUFFIX,laohu8.com, 狮城节点
-HOST-SUFFIX,tigerbbs.com, 狮城节点
+#HOST-SUFFIX,tradeup.com,狮城节点
+#HOST-SUFFIX,skytigris.cn, 狮城节点
+#HOST-SUFFIX,c1.itigergrowtha.com, 狮城节点
+#HOST,www.atigrzen.com, 狮城节点
+#HOST-SUFFIX,apihub.skytigris.cn, 狮城节点
+#HOST-SUFFIX,trade.tigerbrokers.com.sg, 狮城节点
+#HOST-KEYWORD,tiger,狮城节点
+#HOST-KEYWORD,skytigris,狮城节点
+#HOST-SUFFIX,static.tigerbbs.com, 狮城节点
+#HOST-SUFFIX,stock-news.laohu8.com, 狮城节点
+#HOST-SUFFIX,tigerfintech.com, 狮城节点
+#HOST-SUFFIX,ttm.financial, 狮城节点
+#HOST-SUFFIX,tigerbrokers.com.sg, 狮城节点
+#HOST-SUFFIX,laohu8.com, 狮城节点
+#HOST-SUFFIX,tigerbbs.com, 狮城节点
 
 #ifast
 HOST-KEYWORD,fundsupermart,狮城节点
@@ -38,11 +38,11 @@ HOST-KEYWORD,digitalcardservice.com,狮城节点
 HOST-KEYWORD,starryblu,狮城节点
 
 #moomoo&富途牛牛
-HOST-KEYWORD,moomoo,狮城节点
-HOST-KEYWORD,futufin,狮城节点
-HOST-KEYWORD,futunn,狮城节点
-HOST-KEYWORD,futuhk,狮城节点
-HOST-KEYWORD,futustatic,狮城节点
+#HOST-KEYWORD,moomoo,狮城节点
+#HOST-KEYWORD,futufin,狮城节点
+#HOST-KEYWORD,futunn,狮城节点
+#HOST-KEYWORD,futuhk,狮城节点
+#HOST-KEYWORD,futustatic,狮城节点
 
 #bitget
 HOST-KEYWORD,bitkeep,狮城节点
