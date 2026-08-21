@@ -158,15 +158,6 @@ HOST-SUFFIX,club100.hk,香港节点
 #HOST-SUFFIX,zhangle.com,香港节点
 #HOST-SUFFIX,prod-mox.com,香港节点
 
-#mexc
-HOST-KEYWORD,mexc,狮城节点
-HOST-SUFFIX,hotbookzone.com,狮城节点
-HOST-SUFFIX,dgshen.com,狮城节点
-HOST-SUFFIX,moloco.com,狮城节点
-HOST-SUFFIX,mocortech.com,狮城节点
-HOST-SUFFIX,greentreeone.com,狮城节点
-HOST-SUFFIX,flytogarden.com,狮城节点
-HOST-SUFFIX,coldbookfly.ru,狮城节点
 
 #中信国际
 #HOST-KEYWORD,cncbinternational,香港节点
