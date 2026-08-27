@@ -324,14 +324,14 @@ HOST-SUFFIX,posthog.com,英国专用
 HOST-SUFFIX,privy.io,英国专用
 
 #mexc
-HOST-KEYWORD,mexc,狮城节点
-HOST-SUFFIX,hotbookzone.com,狮城节点
-HOST-SUFFIX,dgshen.com,狮城节点
-HOST-SUFFIX,moloco.com,狮城节点
-HOST-SUFFIX,mocortech.com,狮城节点
-HOST-SUFFIX,greentreeone.com,狮城节点
-HOST-SUFFIX,flytogarden.com,狮城节点
-HOST-SUFFIX,coldbookfly.ru,狮城节点
+HOST-KEYWORD,mexc,英国专用
+HOST-SUFFIX,hotbookzone.com,英国专用
+HOST-SUFFIX,dgshen.com,英国专用
+HOST-SUFFIX,moloco.com,英国专用
+HOST-SUFFIX,mocortech.com,英国专用
+HOST-SUFFIX,greentreeone.com,英国专用
+HOST-SUFFIX,flytogarden.com,英国专用
+HOST-SUFFIX,coldbookfly.ru,英国专用
 
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
