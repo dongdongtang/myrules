@@ -323,6 +323,16 @@ HOST-SUFFIX,knock.app,英国专用
 HOST-SUFFIX,posthog.com,英国专用
 HOST-SUFFIX,privy.io,英国专用
 
+#mexc
+HOST-KEYWORD,mexc,狮城节点
+HOST-SUFFIX,hotbookzone.com,狮城节点
+HOST-SUFFIX,dgshen.com,狮城节点
+HOST-SUFFIX,moloco.com,狮城节点
+HOST-SUFFIX,mocortech.com,狮城节点
+HOST-SUFFIX,greentreeone.com,狮城节点
+HOST-SUFFIX,flytogarden.com,狮城节点
+HOST-SUFFIX,coldbookfly.ru,狮城节点
+
 #unkown
 HOST-SUFFIX,cashbacksrv.com,英国专用
 HOST-KEYWORD,launchdarkly,英国专用
