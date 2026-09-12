@@ -1,0 +1,15 @@
+# NAME: 加拿大分流
+# AUTHOR: Louis
+
+
+HOST-SUFFIX,com.ca,加拿大节点
+
+#koho
+HOST-SUFFIX,koho.ca,加拿大节点
+HOST-SUFFIX,kohoanalytics.ca, 加拿大节点
+HOST-SUFFIX,pndsn.com, 加拿大节点
+HOST-KEYWORD,koho,加拿大节点
+
+#shakepay
+HOST-KEYWORD,shakepay,加拿大节点
+HOST-SUFFIX,shakepay.com, 加拿大节点
