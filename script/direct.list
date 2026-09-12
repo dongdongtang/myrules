@@ -1,0 +1,21 @@
+# NAME: 自选直通分流
+# AUTHOR: Louis
+
+#中信国际
+HOST-KEYWORD,cncbinternational,DIRECT
+  
+#大新银行
+HOST-KEYWORD,dahsing,DIRECT
+  
+#创兴银行
+HOST-KEYWORD,chbank,DIRECT
+
+#东亚银行
+HOST-KEYWORD,hkbea,DIRECT
+
+#luso bank
+HOST-KEYWORD,lusobank,DIRECT
+  
+#dbs bank
+HOST-KEYWORD,dbs,DIRECT
+
