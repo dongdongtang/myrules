@@ -1,0 +1,11 @@
+# NAME: 巴西分流
+# AUTHOR: Louis
+
+
+HOST-SUFFIX,com.br,巴西节点
+
+#rendimento
+HOST-KEYWORD,rendimento,巴西节点
+
+#vivo
+HOST-SUFFIX,vivo.com.br, 巴西节点
