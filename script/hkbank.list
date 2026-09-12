@@ -48,6 +48,8 @@ HOST-KEYWORD,hkbank,香港节点
 
 #交通银行香港
 HOST-SUFFIX,hk.bankcomm.com,香港节点
+HOST-SUFFIX,hk.bankcomm.cn,香港节点
+
 
 #富邦银行
 HOST-SUFFIX,fubonbank.com.hk,香港节点
