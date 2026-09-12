@@ -219,6 +219,7 @@ HOST-SUFFIX,ukp.tcb-cdn.com,英国专用
 
 #ukpostbox uk
 HOST-KEYWORD,ipostalmail,英国专用
+HOST-KEYWORD,ipmdefaultstorage,英国专用
 
 #vanquis uk
 HOST-KEYWORD,evanquis,英国专用
