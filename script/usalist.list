@@ -14,3 +14,9 @@ HOST-SUFFIX,asu.edu,美国节点
 
 #bsky
 HOST-KEYWORD,bsky,美国节点
+
+#Tello Mobile 
+HOST-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国节点
+HOST-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org,美国节点
+HOST-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国节点
+HOST-KEYWORD,epdg.epc.mnc260,美国节点
