@@ -25,3 +25,10 @@ HOST-SUFFIX,t-mobile.com,美国节点
 HOST-KEYWORD,tello,美国节点
 HOST-SUFFIX,tmobile.net,美国节点
 HOST-SUFFIX,keepcalling.net,美国节点
+
+#muse mata
+HOST-SUFFIX,meta.ai,美国节点
+HOST-SUFFIX,metaaivm.com,美国节点
+HOST-SUFFIX,meta.com,美国节点
+HOST-SUFFIX,muse.ai,美国节点
+
