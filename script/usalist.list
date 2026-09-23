@@ -21,3 +21,7 @@ HOST-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org,美国节点
 HOST-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国节点
 HOST-KEYWORD,epdg.epc.mnc260,美国节点
 HOST-SUFFIX,tello.com,美国节点
+HOST-SUFFIX,t-mobile.com,美国节点
+HOST-KEYWORD,tello,美国节点
+HOST-SUFFIX,tmobile.net,美国节点
+HOST-SUFFIX,keepcalling.net,美国节点
