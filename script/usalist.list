@@ -32,3 +32,9 @@ HOST-SUFFIX,metaaivm.com,美国节点
 HOST-SUFFIX,meta.com,美国节点
 HOST-SUFFIX,muse.ai,美国节点
 
+#claude.ai
+HOST-KEYWORD,claude,美国节点
+HOST-KEYWORD,anthropic,美国节点
+HOST-SUFFIX,siftscience.com,美国节点
+
+
