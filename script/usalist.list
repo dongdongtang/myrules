@@ -37,4 +37,9 @@ HOST-KEYWORD,claude,美国节点
 HOST-KEYWORD,anthropic,美国节点
 HOST-SUFFIX,siftscience.com,美国节点
 
+#hark
+HOST-SUFFIX,hark.com,美国节点
+
+
+
 
